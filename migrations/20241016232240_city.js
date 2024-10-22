@@ -3,7 +3,6 @@ export function up(knex) {
     table.increments("id").primary();
     table.string("city_name").notNullable();
     table.text("city_description").nullable();
-    table.text("city_image").nullable(); // URL for the country image
     table.decimal("latitude", 10, 8).nullable(); // Decimal precision for lat/long
     table.decimal("longitude", 11, 8).nullable();
     table.integer("days_to_spend").notNullable(); // Days to spend in the city

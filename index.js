@@ -11,6 +11,8 @@ app.use(express.static("public"));
 app.use("/countries", router);
 //test
 
+app.use("/countries", router);
+
 app.get("/", (_req, _res) => {
   _res.send("Welcome to laVoyage itinerary builder");
 });

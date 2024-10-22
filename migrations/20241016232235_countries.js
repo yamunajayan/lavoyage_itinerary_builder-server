@@ -1,3 +1,7 @@
+import dotenv from "dotenv";
+// Load environment variables from .env file
+dotenv.config();
+
 export function up(knex) {
   return knex.schema.createTable("countries", (table) => {
     table.increments("id").primary();

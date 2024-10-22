@@ -1,13 +1,17 @@
+import dotenv from "dotenv";
+
+// Load environment variables from .env file
+dotenv.config();
 export async function seed(knex) {
   // Deletes ALL existing entries
   await knex("countries").del();
 
   // Inserts seed entries
-  await knex("countries").insert([
+  const countries = [
     {
       id: 1,
       country_name: "Italy",
-      country_image: "https://example.com/italy-image.jpg",
+      country_image: "http://localhost:8080/images/italy-2.jpeg",
       budget_7_days_usd: "$1,000–$1,500 USD",
       country_description: "Italy is known for its art, history, and cuisine.",
       latitude: 41.87194,
@@ -22,7 +26,7 @@ export async function seed(knex) {
     {
       id: 2,
       country_name: "Thailand",
-      country_image: "https://example.com/thailand-image.jpg",
+      country_image: "http://localhost:8080/images/Thailand/Thailand-1.avif",
       budget_7_days_usd: "$500–$1,000 USD",
       country_description:
         "Thailand is famous for its tropical beaches, royal palaces, and temples.",
@@ -33,7 +37,7 @@ export async function seed(knex) {
     {
       id: 3,
       country_name: "India",
-      country_image: "https://example.com/india-image.jpg",
+      country_image: "http://localhost:8080/images/India/India-1.avif",
       budget_7_days_usd: "$400–$1,000 USD",
       country_description:
         "India is a country of diverse landscapes, culture, and history.",
@@ -44,7 +48,7 @@ export async function seed(knex) {
     {
       id: 4,
       country_name: "Egypt",
-      country_image: "https://example.com/egypt-image.jpg",
+      country_image: "http://localhost:8080/images/Egypt/Egypt-1.jpeg",
       budget_7_days_usd: "$700–$1,200 USD",
       country_description:
         "Egypt is known for its ancient civilization and monumental sites like the pyramids.",
@@ -55,7 +59,7 @@ export async function seed(knex) {
     {
       id: 5,
       country_name: "France",
-      country_image: "https://example.com/france-image.jpg",
+      country_image: "http://localhost:8080/images/France/France-2.avif",
       budget_7_days_usd: "$1,200–$1,800 USD",
       country_description:
         "France is celebrated for its wine, art, history, and landmarks like the Eiffel Tower.",
@@ -71,7 +75,7 @@ export async function seed(knex) {
     {
       id: 6,
       country_name: "Bali",
-      country_image: "https://example.com/bali-image.jpg",
+      country_image: "http://localhost:8080/images/Bali/Bali-1.webp",
       budget_7_days_usd: "$500–$900 USD",
       country_description:
         "Bali is an Indonesian island known for its forested volcanic mountains and beaches.",
@@ -231,5 +235,15 @@ export async function seed(knex) {
         "October",
       ]),
     },
-  ]);
+  ];
+
+  // const updatedCountries = countries.map((country) => ({
+  //   ...country,
+  //   country_image: `${
+  //     process.env.BASE_URL
+  //   }/images/${country.country_name.toLowerCase()}/${country.country_name.toLowerCase()}.jpg`,
+  // }));
+
+  // Inserts seed entries
+  await knex("countries").insert(countries);
 }

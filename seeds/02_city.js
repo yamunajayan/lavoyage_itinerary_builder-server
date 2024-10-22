@@ -51,25 +51,25 @@ export async function seed(knex) {
     },
     {
       id: 5,
-      city_name: "Naples",
+      city_name: "Tuscany",
       city_description:
-        "A vibrant city in southern Italy, known for its proximity to Pompeii and Mt. Vesuvius.",
-      city_image: "https://example.com/naples.jpg", // Replace with actual image URL
-      latitude: 40.8518,
-      longitude: 14.2681,
-      days_to_spend: 2,
-      country_id: 1,
+        "A region known for its beautiful landscapes, vineyards, rolling hills, and cities like Florence and Siena, Tuscany is the heart of Italy’s Renaissance.",
+      city_image: "https://example.com/tuscany.jpg", // Replace with actual image URL
+      latitude: 43.7711,
+      longitude: 11.2486,
+      days_to_spend: 4,
+      country_id: 1, // Italy's country_id
     },
     {
       id: 6,
-      city_name: "Verona",
+      city_name: "Cinque Terre",
       city_description:
-        "Known as the setting for Shakespeare's Romeo and Juliet, with a charming old town and Roman amphitheater.",
-      city_image: "https://example.com/verona.jpg", // Replace with actual image URL
-      latitude: 45.4384,
-      longitude: 10.9916,
-      days_to_spend: 1,
-      country_id: 1,
+        "Cinque Terre is a rugged, coastal region made up of five picturesque villages, known for its colorful houses, vineyards, and hiking trails.",
+      city_image: "https://example.com/cinque-terre.jpg", // Replace with actual image URL
+      latitude: 44.127,
+      longitude: 9.7097,
+      days_to_spend: 3,
+      country_id: 1, // Italy's country_id
     },
 
     // Cities in India
@@ -407,6 +407,28 @@ export async function seed(knex) {
       longitude: 1.4442,
       days_to_spend: 2,
       country_id: 5,
+    },
+    {
+      id: 37,
+      city_name: "Pisa",
+      city_description:
+        "Famous for the Leaning Tower, Pisa is a city in Italy’s Tuscany region known for its medieval architecture and historic university.",
+      city_image: "https://example.com/pisa.jpg", // Replace with actual image URL
+      latitude: 43.7228,
+      longitude: 10.4017,
+      days_to_spend: 2,
+      country_id: 1, // Italy's country_id
+    },
+    {
+      id: 38,
+      city_name: "Sicily",
+      city_description:
+        "The largest Mediterranean island, Sicily is rich in history, archaeological sites, beautiful beaches, and culinary traditions.",
+      city_image: "https://example.com/sicily.jpg", // Replace with actual image URL
+      latitude: 37.6,
+      longitude: 14.0154,
+      days_to_spend: 5,
+      country_id: 1, // Italy's country_id
     },
   ]);
 }

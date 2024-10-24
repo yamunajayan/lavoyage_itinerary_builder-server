@@ -11,9 +11,10 @@ export async function seed(knex) {
     {
       id: 1,
       country_name: "Italy",
-      country_image: "http://localhost:8080/images/Italy/italy-2.jpeg",
+      country_image: "http://localhost:8080/images/Italy/italy-2.avif",
       budget_7_days_usd: "$1,000–$1,500 USD",
-      country_description: "Italy is known for its art, history, and cuisine.",
+      country_description:
+        "Italy is known foItaly is best known for its rich cultural heritage, iconic art, and delicious cuisine. From the breathtaking architecture of  Rome to amazing vineyards of Tuscany to the picturesque canals of Venice, it offers a blend of history and beauty. Additionally, Italy's world-renowned dishes  like pizza, pasta, and gelato make it a top  destination for food lovers.",
       latitude: 41.87194,
       longitude: 12.56738,
       best_months_to_visit: JSON.stringify([
@@ -22,6 +23,36 @@ export async function seed(knex) {
         "September",
         "October",
       ]),
+      transportation: JSON.stringify([
+        {
+          mode: "Trains",
+          message:
+            "Italy's high-speed train network (Frecciarossa and Italo) connects major cities like Rome, Florence, and Venice efficiently.",
+          transportation:
+            "Trains are the fastest and most convenient way to travel between cities.",
+        },
+        {
+          mode: "Buses",
+          message:
+            "Local buses operate within each city and connect to nearby towns, but walking is often preferred for city exploration.",
+          transportation:
+            "Buses and regional trains are available for local travel.",
+        },
+        {
+          mode: "Car Rentals",
+          message:
+            "Car rentals are useful for trips to the Italian countryside or smaller towns, though not necessary within major cities like Rome, Florence, or Venice.",
+          transportation:
+            "Services like Hertz, Europcar, and Avis are widely available. An international driving permit is required.",
+        },
+      ]),
+      finalReminders: JSON.stringify({
+        safety: "Stay vigilant in crowded tourist areas to avoid pickpockets.",
+        culturalEtiquette:
+          "Respect local customs and dress appropriately when visiting religious sites.",
+        dining:
+          "Try authentic Italian cuisine at local trattorias, and remember, tipping is not mandatory in Italy.",
+      }),
     },
     {
       id: 2,
@@ -59,7 +90,7 @@ export async function seed(knex) {
     {
       id: 5,
       country_name: "France",
-      country_image: "http://localhost:8080/images/France/France-2.avif",
+      country_image: "http://localhost:8080/images/France/France-2.jpeg",
       budget_7_days_usd: "$1,200–$1,800 USD",
       country_description:
         "France is celebrated for its wine, art, history, and landmarks like the Eiffel Tower.",
@@ -134,7 +165,7 @@ export async function seed(knex) {
     {
       id: 10,
       country_name: "Mexico",
-      country_image: "http://localhost:8080/images/Mexico/Mexico-1.avif",
+      country_image: "http://localhost:8080/images/Mexico/Mexico-1.jpeg",
       budget_7_days_usd: "$700–$1,200 USD",
       country_description:
         "Mexico is famous for its beaches, ancient ruins, and vibrant culture.",

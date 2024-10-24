@@ -37,6 +37,19 @@ const getOne = async (req, res) => {
   }
 };
 
+const addItinerarytoDB = async (newItineraryObj) => {
+  const itineraryForDB = {
+    ...newItineraryObj,
+    itinerary: JSON.stringify(newItineraryObj.itinerary),
+    cities_included: JSON.stringify(newItineraryObj.cities_included), // Stringify only for DB insert
+  };
+  try {
+    const data = await knex("itineraries").insert(itineraryForDB);
+  } catch (error) {
+    console.log(error);
+  }
+};
+
 const getItinerary = async (req, res) => {
   const { countryName } = req.params;
   const numberOfDays = req.body.number_of_days;
@@ -46,13 +59,14 @@ const getItinerary = async (req, res) => {
   const cityString = citiesIncluded.join(", ");
 
   const buildItinerary = (countryId) => {
-    console.log(countryId);
+    // console.log(countryId);
     const newItineraryObj = {
       country_id: countryId,
       itinerary: itineraryData,
       days_to_spend: numberOfDays,
       cities_included: citiesIncluded,
     };
+
     return newItineraryObj;
   };
 
@@ -89,10 +103,12 @@ const getItinerary = async (req, res) => {
       res.status(200).json(itinerary);
     } else {
       const newItinerary = buildItinerary(country.id);
+
       res.status(200).json(newItinerary);
     }
   } else {
     const newItinerary = buildItinerary(country.id);
+    addItinerarytoDB(newItinerary);
     res.status(200).json(newItinerary);
   }
 };

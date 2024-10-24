@@ -10,7 +10,7 @@ export async function seed(knex) {
       city_name: "Rome",
       city_description:
         "The capital city of Italy, known for its rich history, including landmarks like the Colosseum and the Vatican.",
-      city_image: "https://example.com/rome.jpg", // Replace with actual image URL
+      city_image: "http://localhost:8080/images/Italy/rome-1.jpeg", // Replace with actual image URL
       latitude: 41.9028,
       longitude: 12.4964,
       days_to_spend: 3,
@@ -21,7 +21,7 @@ export async function seed(knex) {
       city_name: "Florence",
       city_description:
         "Famous for its Renaissance art and architecture, including Michelangelo's David and the Duomo.",
-      city_image: "https://example.com/florence.jpg", // Replace with actual image URL
+      city_image: "http://localhost:8080/images/Italy/florence-1.jpeg", // Replace with actual image URL
       latitude: 43.7696,
       longitude: 11.2558,
       days_to_spend: 2,
@@ -32,7 +32,7 @@ export async function seed(knex) {
       city_name: "Venice",
       city_description:
         "A city built on water, known for its canals, gondolas, and the Piazza San Marco.",
-      city_image: "https://example.com/venice.jpg", // Replace with actual image URL
+      city_image: "http://localhost:8080/images/Italy/venice-1.avif", // Replace with actual image URL
       latitude: 45.4408,
       longitude: 12.3155,
       days_to_spend: 2,
@@ -43,7 +43,7 @@ export async function seed(knex) {
       city_name: "Milan",
       city_description:
         "The fashion and design capital of Italy, known for the Milan Cathedral and La Scala opera house.",
-      city_image: "https://example.com/milan.jpg", // Replace with actual image URL
+      city_image: "http://localhost:8080/images/Italy/milan-1.avif", // Replace with actual image URL
       latitude: 45.4642,
       longitude: 9.19,
       days_to_spend: 2,
@@ -54,7 +54,7 @@ export async function seed(knex) {
       city_name: "Tuscany",
       city_description:
         "A region known for its beautiful landscapes, vineyards, rolling hills, and cities like Florence and Siena, Tuscany is the heart of Italy’s Renaissance.",
-      city_image: "https://example.com/tuscany.jpg", // Replace with actual image URL
+      city_image: "http://localhost:8080/images/Italy/Tuscany.jpeg", // Replace with actual image URL
       latitude: 43.7711,
       longitude: 11.2486,
       days_to_spend: 4,
@@ -65,7 +65,7 @@ export async function seed(knex) {
       city_name: "Cinque Terre",
       city_description:
         "Cinque Terre is a rugged, coastal region made up of five picturesque villages, known for its colorful houses, vineyards, and hiking trails.",
-      city_image: "https://example.com/cinque-terre.jpg", // Replace with actual image URL
+      city_image: "http://localhost:8080/images/Italy/cinque-terre.jpeg", // Replace with actual image URL
       latitude: 44.127,
       longitude: 9.7097,
       days_to_spend: 3,
@@ -213,7 +213,7 @@ export async function seed(knex) {
       city_name: "Bangkok",
       city_description:
         "The vibrant capital of Thailand, known for its street life, temples, and bustling markets.",
-      city_image: "https://example.com/bangkok.jpg", // Replace with actual image URL
+      city_image: "http://localhost:8080/images/Thailand/bangkok-1.jpeg", // Replace with actual image URL
       latitude: 13.7563,
       longitude: 100.5018,
       days_to_spend: 3,
@@ -224,7 +224,7 @@ export async function seed(knex) {
       city_name: "Chiang Mai",
       city_description:
         "A city in northern Thailand known for its temples, night markets, and surrounding mountains.",
-      city_image: "https://example.com/chiangmai.jpg", // Replace with actual image URL
+      city_image: "http://localhost:8080/images/Thailand/chiang-mai-1.avif", // Replace with actual image URL
       latitude: 18.7883,
       longitude: 98.9853,
       days_to_spend: 2,
@@ -235,7 +235,7 @@ export async function seed(knex) {
       city_name: "Phuket",
       city_description:
         "Thailand’s largest island, famous for its beaches, nightlife, and luxury resorts.",
-      city_image: "https://example.com/phuket.jpg", // Replace with actual image URL
+      city_image: "http://localhost:8080/images/Thailand/phuket-1.jpeg", // Replace with actual image URL
       latitude: 7.8804,
       longitude: 98.3923,
       days_to_spend: 3,
@@ -246,7 +246,7 @@ export async function seed(knex) {
       city_name: "Pattaya",
       city_description:
         "A popular beach resort city on the Gulf of Thailand, known for its nightlife and water activities.",
-      city_image: "https://example.com/pattaya.jpg", // Replace with actual image URL
+      city_image: "http://localhost:8080/images/Thailand/pattaya-1.jpeg", // Replace with actual image URL
       latitude: 12.9236,
       longitude: 100.8825,
       days_to_spend: 2,
@@ -257,7 +257,7 @@ export async function seed(knex) {
       city_name: "Ayutthaya",
       city_description:
         "A historical city north of Bangkok, known for its ancient temple ruins.",
-      city_image: "https://example.com/ayutthaya.jpg", // Replace with actual image URL
+      city_image: "http://localhost:8080/images/Thailand/ayutthaya-1.jpeg", // Replace with actual image URL
       latitude: 14.3532,
       longitude: 100.5684,
       days_to_spend: 1,
@@ -268,7 +268,7 @@ export async function seed(knex) {
       city_name: "Krabi",
       city_description:
         "A coastal town known for its limestone cliffs, clear waters, and beautiful beaches.",
-      city_image: "https://example.com/krabi.jpg", // Replace with actual image URL
+      city_image: "http://localhost:8080/images/Thailand/krabi-1.jpeg", // Replace with actual image URL
       latitude: 8.0863,
       longitude: 98.9063,
       days_to_spend: 2,
@@ -347,7 +347,7 @@ export async function seed(knex) {
       city_name: "Paris",
       city_description:
         "The capital city of France, known for the Eiffel Tower, Louvre Museum, and Notre-Dame Cathedral.",
-      city_image: "https://example.com/paris.jpg", // Replace with actual image URL
+      city_image: "http://localhost:8080/images/France/paris-1.jpeg", // Replace with actual image URL
       latitude: 48.8566,
       longitude: 2.3522,
       days_to_spend: 4,
@@ -358,7 +358,7 @@ export async function seed(knex) {
       city_name: "Nice",
       city_description:
         "A beautiful city on the French Riviera, known for its beaches and promenade.",
-      city_image: "https://example.com/nice.jpg", // Replace with actual image URL
+      city_image: "http://localhost:8080/images/France/nice-1.avif", // Replace with actual image URL
       latitude: 43.7102,
       longitude: 7.262,
       days_to_spend: 2,
@@ -369,7 +369,7 @@ export async function seed(knex) {
       city_name: "Lyon",
       city_description:
         "A city in eastern France known for its historical and architectural landmarks.",
-      city_image: "https://example.com/lyon.jpg", // Replace with actual image URL
+      city_image: "http://localhost:8080/images/France/lyon-1.avif", // Replace with actual image URL
       latitude: 45.764,
       longitude: 4.8357,
       days_to_spend: 2,
@@ -380,7 +380,7 @@ export async function seed(knex) {
       city_name: "Marseille",
       city_description:
         "A port city in southern France, known for its maritime history and multicultural influence.",
-      city_image: "https://example.com/marseille.jpg", // Replace with actual image URL
+      city_image: "http://localhost:8080/images/France/marseille-1.jpeg", // Replace with actual image URL
       latitude: 43.2965,
       longitude: 5.3698,
       days_to_spend: 2,
@@ -391,7 +391,7 @@ export async function seed(knex) {
       city_name: "Bordeaux",
       city_description:
         "Famous for its wine, Bordeaux is a port city on the Garonne River in southwestern France.",
-      city_image: "https://example.com/bordeaux.jpg", // Replace with actual image URL
+      city_image: "http://localhost:8080/images/France/bordeaux-1.jpeg", // Replace with actual image URL
       latitude: 44.8378,
       longitude: -0.5792,
       days_to_spend: 2,
@@ -402,7 +402,7 @@ export async function seed(knex) {
       city_name: "Toulouse",
       city_description:
         "A city in southwestern France, known for its aeronautics industry and historic architecture.",
-      city_image: "https://example.com/toulouse.jpg", // Replace with actual image URL
+      city_image: "http://localhost:8080/images/France/toulouse-1.jpeg", // Replace with actual image URL
       latitude: 43.6047,
       longitude: 1.4442,
       days_to_spend: 2,
@@ -413,7 +413,7 @@ export async function seed(knex) {
       city_name: "Pisa",
       city_description:
         "Famous for the Leaning Tower, Pisa is a city in Italy’s Tuscany region known for its medieval architecture and historic university.",
-      city_image: "https://example.com/pisa.jpg", // Replace with actual image URL
+      city_image: "http://localhost:8080/images/Italy/pisa.avif", // Replace with actual image URL
       latitude: 43.7228,
       longitude: 10.4017,
       days_to_spend: 2,
@@ -424,7 +424,7 @@ export async function seed(knex) {
       city_name: "Sicily",
       city_description:
         "The largest Mediterranean island, Sicily is rich in history, archaeological sites, beautiful beaches, and culinary traditions.",
-      city_image: "https://example.com/sicily.jpg", // Replace with actual image URL
+      city_image: "http://localhost:8080/images/Italy/sicily.avif", // Replace with actual image URL
       latitude: 37.6,
       longitude: 14.0154,
       days_to_spend: 5,

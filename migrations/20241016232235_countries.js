@@ -12,6 +12,9 @@ export function up(knex) {
     table.decimal("latitude", 10, 8).nullable(); // Decimal precision for lat/long
     table.decimal("longitude", 11, 8).nullable();
     table.json("best_months_to_visit").nullable();
+    table.json("transportation").nullable();
+    table.json("finalReminders").nullable();
+    table.json("cusine").nullable();
     table.timestamps(true, true); // Automatically manages created_at and updated_at
   });
 }

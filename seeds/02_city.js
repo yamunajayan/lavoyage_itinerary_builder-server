@@ -78,7 +78,7 @@ export async function seed(knex) {
       city_name: "New Delhi",
       city_description:
         "The capital city of India, known for its historical monuments like the Red Fort and India Gate.",
-      city_image: "https://example.com/newdelhi.jpg", // Replace with actual image URL
+      city_image: "http://localhost:8080/images/India/delhi-1.webp", // Replace with actual image URL
       latitude: 28.6139,
       longitude: 77.209,
       days_to_spend: 3,
@@ -89,7 +89,7 @@ export async function seed(knex) {
       city_name: "Mumbai",
       city_description:
         "India's financial capital, known for Bollywood, the Gateway of India, and bustling streets.",
-      city_image: "https://example.com/mumbai.jpg", // Replace with actual image URL
+      city_image: "http://localhost:8080/images/India/mumbai-1.avif", // Replace with actual image URL
       latitude: 19.076,
       longitude: 72.8777,
       days_to_spend: 2,
@@ -100,7 +100,7 @@ export async function seed(knex) {
       city_name: "Jaipur",
       city_description:
         "The Pink City, known for its palaces and forts, including the iconic Hawa Mahal and Amber Fort.",
-      city_image: "https://example.com/jaipur.jpg", // Replace with actual image URL
+      city_image: "http://localhost:8080/images/India/jaipur-1.avif", // Replace with actual image URL
       latitude: 26.9124,
       longitude: 75.7873,
       days_to_spend: 2,
@@ -111,7 +111,7 @@ export async function seed(knex) {
       city_name: "Agra",
       city_description:
         "Home to the world-famous Taj Mahal, a UNESCO World Heritage Site.",
-      city_image: "https://example.com/agra.jpg", // Replace with actual image URL
+      city_image: "http://localhost:8080/images/India/agra-1.avif", // Replace with actual image URL
       latitude: 27.1767,
       longitude: 78.0081,
       days_to_spend: 1,
@@ -122,7 +122,7 @@ export async function seed(knex) {
       city_name: "Bengaluru",
       city_description:
         "India's IT capital, known for its gardens and modern technology hub.",
-      city_image: "https://example.com/bengaluru.jpg", // Replace with actual image URL
+      city_image: "http://localhost:8080/images/India/bangalore-1.jpeg", // Replace with actual image URL
       latitude: 12.9716,
       longitude: 77.5946,
       days_to_spend: 2,
@@ -130,10 +130,10 @@ export async function seed(knex) {
     },
     {
       id: 12,
-      city_name: "Kolkata",
+      city_name: "Kerala",
       city_description:
         "Known for its colonial architecture, vibrant cultural scenes, and the Victoria Memorial.",
-      city_image: "https://example.com/kolkata.jpg", // Replace with actual image URL
+      city_image: "http://localhost:8080/images/India/kerala.avif", // Replace with actual image URL
       latitude: 22.5726,
       longitude: 88.3639,
       days_to_spend: 2,

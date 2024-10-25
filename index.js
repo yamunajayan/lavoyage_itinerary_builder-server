@@ -1,7 +1,10 @@
 import express from "express";
 import router from "./routes/router.js";
 import cors from "cors";
+import { config } from "dotenv";
+import itineraryDbBackup from "./utils/itinerary-db-backup.js";
 
+config();
 const PORT = 8080;
 
 const app = express();
@@ -12,6 +15,8 @@ app.use("/countries", router);
 //test
 
 app.use("/countries", router);
+
+itineraryDbBackup();
 
 app.get("/", (_req, _res) => {
   _res.send("Welcome to laVoyage itinerary builder");

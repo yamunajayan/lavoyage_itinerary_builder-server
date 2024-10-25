@@ -2,7 +2,7 @@ import initKnex from "knex";
 import configuration from "../knexfile.js";
 const knex = initKnex(configuration);
 
-import { itineraryData } from "../utils/chatgpt-funtion.js";
+import chatgptOpenAifunction from "../utils/chatgpt-OpenAI-function.js";
 
 const all = async (_req, res) => {
   try {
@@ -56,13 +56,12 @@ const getItinerary = async (req, res) => {
   const month = req.body.month;
   const travelBy = req.body.travel_by;
   const citiesIncluded = req.body.cities_included;
-  const cityString = citiesIncluded.join(", ");
 
-  const buildItinerary = (countryId) => {
+  const buildItinerary = (countryId, newIti) => {
     // console.log(countryId);
     const newItineraryObj = {
       country_id: countryId,
-      itinerary: itineraryData,
+      itinerary: JSON.parse(newIti),
       days_to_spend: numberOfDays,
       cities_included: citiesIncluded,
     };
@@ -102,14 +101,29 @@ const getItinerary = async (req, res) => {
     ) {
       res.status(200).json(itinerary);
     } else {
+      const newIti = chatgptOpenAifunction(
+        countryName,
+        numberOfDays,
+        citiesIncluded,
+        month
+      );
+      console.log(newIti);
       const newItinerary = buildItinerary(country.id);
-
       res.status(200).json(newItinerary);
     }
   } else {
-    const newItinerary = buildItinerary(country.id);
-    addItinerarytoDB(newItinerary);
-    res.status(200).json(newItinerary);
+    const newIti = await chatgptOpenAifunction(
+      countryName,
+      numberOfDays,
+      citiesIncluded,
+      month
+    );
+    console.log(newIti);
+    if (newIti.length > 0) {
+      const newItinerary = buildItinerary(country.id, newIti);
+      addItinerarytoDB(newItinerary);
+      res.status(200).json(newItinerary);
+    }
   }
 };
 

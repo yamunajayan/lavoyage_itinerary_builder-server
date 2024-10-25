@@ -1,0 +1,388 @@
+[
+  {
+    "id": 4,
+    "days_to_spend": 10,
+    "itinerary": [
+      {
+        "day": 1,
+        "plan": "Arrival in Paris - Explore the Eiffel Tower, Trocadéro Gardens, and a Seine River Cruise.",
+        "transportation": "Use Paris Métro and buses. Walking is ideal for exploring central Paris."
+      },
+      {
+        "day": 2,
+        "plan": "Louvre Museum - Spend the morning exploring the world-renowned Louvre. In the afternoon, visit the Notre-Dame Cathedral and stroll through the Île de la Cité.",
+        "transportation": "Métro and buses. Walking between the Louvre and Notre-Dame is scenic and enjoyable."
+      },
+      {
+        "day": 3,
+        "plan": "Montmartre & Sacré-Cœur - Explore the artistic district of Montmartre, visit the Sacré-Cœur Basilica, and enjoy a coffee at a local café.",
+        "transportation": "Take the Métro to Montmartre, and walk around the neighborhood."
+      },
+      {
+        "day": 4,
+        "plan": "Day Trip to Versailles - Visit the Palace of Versailles, its vast gardens, and the Grand Trianon.",
+        "transportation": "Take the RER C train from central Paris to Versailles. Walking is required inside the palace grounds."
+      },
+      {
+        "day": 5,
+        "plan": "Travel from Paris to Lyon - Visit the Basilica of Notre-Dame de Fourvière and the old town (Vieux Lyon). Enjoy dinner at a traditional bouchon restaurant.",
+        "transportation": "Take a high-speed TGV train from Paris to Lyon (2 hours). In Lyon, use trams, buses, and the Métro."
+      },
+      {
+        "day": 6,
+        "plan": "Lyon continued - Explore the Presqu’île district, visit the Musée des Beaux-Arts, and walk along the Rhône and Saône rivers.",
+        "transportation": "Use the Lyon Métro and buses. Walking around Presqu’île is easy and scenic."
+      },
+      {
+        "day": 7,
+        "plan": "Travel from Lyon to Nice - Upon arrival, visit the Promenade des Anglais and relax on the beach.",
+        "transportation": "Take a direct TGV train from Lyon to Nice (5 hours). In Nice, use local buses or trams."
+      },
+      {
+        "day": 8,
+        "plan": "Nice - Explore the Old Town (Vieux Nice), visit the Cours Saleya Market, and climb Castle Hill (Colline du Château) for panoramic views of the city and sea.",
+        "transportation": "Use trams and buses, but walking around Old Nice is the best way to explore."
+      },
+      {
+        "day": 9,
+        "plan": "Day Trip to Monaco - Visit Monte Carlo Casino, the Prince's Palace, and the Oceanographic Museum.",
+        "transportation": "Take a 30-minute train ride from Nice to Monaco. Walking is easy within Monaco."
+      },
+      {
+        "day": 10,
+        "plan": "Departure - Depending on your flight time, relax on the beach or visit the Marc Chagall National Museum in Nice before heading to the airport.",
+        "transportation": "Use local buses or trams to get to Nice Côte d'Azur Airport."
+      }
+    ],
+    "good_to_travel": null,
+    "cities_included": [
+      "Paris",
+      "Nice",
+      "Lyon"
+    ],
+    "country_id": 5,
+    "created_at": "2024-10-24T21:02:40.343Z",
+    "updated_at": "2024-10-24T21:02:40.343Z"
+  },
+  {
+    "id": 1,
+    "days_to_spend": 7,
+    "itinerary": [
+      {
+        "day": 1,
+        "plan": "Arrival in Rome - The Eternal City offers iconic landmarks like the Colosseum, Roman Forum, and Trevi Fountain. Start your day with a leisurely exploration of these historic sites.",
+        "transportation": "Public transportation options include buses, trams, and the metro. Taxis are available, but walking is ideal for exploring central Rome."
+      },
+      {
+        "day": 2,
+        "plan": "Rome continued - Visit the Vatican City, including St. Peter's Basilica and the Sistine Chapel. End your day with a stroll through Piazza Navona and the Pantheon.",
+        "transportation": "Use the metro or buses for Vatican City. Walking is the best way to explore the surrounding areas."
+      },
+      {
+        "day": 3,
+        "plan": "Travel to Florence - Enjoy a scenic train ride from Rome to Florence. Once in Florence, visit the Duomo, Piazza della Signoria, and Uffizi Gallery.",
+        "transportation": "Take a high-speed train (Frecciarossa or Italo) from Rome to Florence in about 1.5 hours. Walking or using local buses for Florence sightseeing."
+      },
+      {
+        "day": 4,
+        "plan": "Florence continued - Explore more of Florence, including the Ponte Vecchio, Boboli Gardens, and Michelangelo's David at the Galleria dell'Accademia.",
+        "transportation": "Florence is very walkable, but buses are available for longer distances."
+      },
+      {
+        "day": 5,
+        "plan": "Travel to Venice - Head to Venice by train and spend the day exploring St. Mark's Square, St. Mark's Basilica, and the Doge's Palace.",
+        "transportation": "Take a high-speed train from Florence to Venice (2 hours). In Venice, use water buses (vaporetti) to get around or walk through the winding streets."
+      },
+      {
+        "day": 6,
+        "plan": "Venice continued - Enjoy a gondola ride, visit the Rialto Bridge, and explore the islands of Murano (for glass-making) and Burano (for colorful houses).",
+        "transportation": "Gondolas and water buses are the main forms of transportation within Venice. Ferries are available to the nearby islands."
+      },
+      {
+        "day": 7,
+        "plan": "Departure - Depending on your flight time, relax in a café or visit the Venice Biennale art exhibition before heading to the airport.",
+        "transportation": "Take a water taxi or Alilaguna (water bus) to Venice Marco Polo Airport."
+      }
+    ],
+    "good_to_travel": {
+      "month": "December",
+      "isGoodMonth": true,
+      "message": "December can be a great time to visit Italy, especially for those who enjoy festive Christmas markets, fewer tourists, and cooler weather. Rome and Florence are lively with holiday lights and events."
+    },
+    "cities_included": [
+      "Rome",
+      "Florence",
+      "Venice"
+    ],
+    "country_id": 1,
+    "created_at": "2024-10-24T18:11:32.607Z",
+    "updated_at": "2024-10-24T18:11:32.607Z"
+  },
+  {
+    "id": 2,
+    "days_to_spend": 7,
+    "itinerary": [
+      {
+        "day": 1,
+        "plan": "Arrival in Bangkok - December is a great time to visit Bangkok due to cooler, less humid weather. Visit iconic spots like the Grand Palace, Wat Phra Kaew, and Wat Arun.",
+        "transportation": "Public transport options include taxis, Tuk-Tuks, and the Skytrain (BTS)."
+      },
+      {
+        "day": 2,
+        "plan": "Bangkok continued - Explore the Chatuchak Weekend Market, take a Chao Phraya River cruise, and visit Chinatown for unique experiences.",
+        "transportation": "Use the BTS Skytrain to navigate inner-city travel and avoid traffic."
+      },
+      {
+        "day": 3,
+        "plan": "Travel to Phuket - Take a 1.5-hour flight from Bangkok or opt for a bus or train ride, which takes around 12-13 hours. Upon arrival, explore Old Town Phuket and visit the Big Buddha.",
+        "transportation": "Fly via domestic airlines like AirAsia or Thai Lion Air, or use buses/trains for longer travel."
+      },
+      {
+        "day": 4,
+        "plan": "Phuket sightseeing - Enjoy Patong Beach, Freedom Beach, and water activities like snorkeling or kayaking.",
+        "transportation": "Rent a motorbike or car, or use Tuk-Tuks for travel around the city."
+      },
+      {
+        "day": 5,
+        "plan": "Travel to Krabi - Take a ferry (2 hours) or bus (3-4 hours) from Phuket to Krabi. Relax at Ao Nang Beach after arrival.",
+        "transportation": "Ferries are a scenic option; buses offer a cheaper alternative."
+      },
+      {
+        "day": 6,
+        "plan": "Krabi exploration - Visit Railay Beach and enjoy island hopping at the Four Islands (Chicken Island, Tup Island, Poda Island, Phra Nang Cave Beach).",
+        "transportation": "Long-tail boats are best for island hopping, while motorbikes or Tuk-Tuks work well for city travel."
+      },
+      {
+        "day": 7,
+        "plan": "Departure - Depending on your flight time, visit the Emerald Pool or Hot Springs before heading to Krabi International Airport.",
+        "transportation": "Krabi Airport offers flights back to Bangkok and other international destinations."
+      }
+    ],
+    "good_to_travel": {
+      "month": "December",
+      "isGoodMonth": true,
+      "message": "December is an excellent time to visit Thailand due to pleasant weather and fewer chances of rain. It's the peak tourist season, so expect more crowds, especially in popular areas like Bangkok and Phuket."
+    },
+    "cities_included": [
+      "Bangkok",
+      "Phuket",
+      "Krabi"
+    ],
+    "country_id": 2,
+    "created_at": "2024-10-24T18:11:32.607Z",
+    "updated_at": "2024-10-24T18:11:32.607Z"
+  },
+  {
+    "id": 3,
+    "days_to_spend": 6,
+    "itinerary": [
+      {
+        "day": 1,
+        "plan": "Start your journey in the historic city of Rome with a tour of the iconic Colosseum. In the afternoon, visit the Roman Forum and Palatine Hill for a sense of the Ancient Roman civilisation.  Finish off your day by throwing a coin into the Trevi Fountain, the largest Baroque fountain in Rome promising a return to Rome.",
+        "transportation": "Subway to Colosseum, walk to Roman Forum, Palatine Hill and Trevi Fountain."
+      },
+      {
+        "day": 2,
+        "plan": "Devote the day to Vatican City. Start at the Vatican Museums, home to an immense collection of art and history. Don’t miss the Sistine Chapel, with its famous frescoed ceiling by Michelangelo. In the afternoon, explore St. Peter’s Basilica, the largest church in the world.",
+        "transportation": "Subway to Ottaviano, then walk to the Vatican City."
+      },
+      {
+        "day": 3,
+        "plan": "Visit the beautiful Spanish Steps and nearby Trinità dei Monti. Continue to Piazza Navona, a public space established in the 1st Century AD, now bustling with street artists, cafes and restaurants. Visit the Pantheon, a remarkably well-preserved temple dedicated to Rome’s gods. Finish your day in Rome with a walk along Via del Corso for shopping.",
+        "transportation": "Walk or bus around the city center."
+      },
+      {
+        "day": 4,
+        "plan": "Travel to the mesmerizing city of Venice. Spend your first evening enjoying a romantic gondola ride in its famed canals, and discover the city's unparalled charm.",
+        "transportation": "Take a high-speed train from Rome to Venice, then use vaporetto (water bus) and walking. Gondola ride in the evening."
+      },
+      {
+        "day": 5,
+        "plan": "Tour the heart of Venice at the Piazza San Marco. Visit San Marco Basilica and Doge's Palace, then ascend the Campanile for panoramic views of the city. In the afternoon, take a Vaporetto to the Rialto Bridge and enjoy the Grand Canal view.",
+        "transportation": "Walk and vaporetto to major attractions."
+      },
+      {
+        "day": 6,
+        "plan": "Escape the city to the islands of Murano and Burano. In Murano be mesmerized by the art of glass blowing and take time to explore Burano known for its lace-making and brightly-colored houses. After returning to Venice, wrap up your trip with an aperitivo and meal at a local bacaro (wine bar).",
+        "transportation": "Vaporetto to Murano and Burano. Walk or vaporetto back to Venice city center."
+      }
+    ],
+    "good_to_travel": {
+      "month": "December",
+      "isGoodMonth": true,
+      "message": "December can be a great time to visit Italy, especially for those who enjoy festive Christmas markets, fewer tourists, and cooler weather. Rome and Florence are lively with holiday lights and events."
+    },
+    "cities_included": [
+      "Rome",
+      "Venice"
+    ],
+    "country_id": 1,
+    "created_at": "2024-10-24T18:11:32.607Z",
+    "updated_at": "2024-10-24T18:11:32.607Z"
+  },
+  {
+    "id": 5,
+    "days_to_spend": 8,
+    "itinerary": [
+      {
+        "day": 1,
+        "plan": "Arrive in Tokyo and get settled into accommodations. Visit Tokyo exchange itineraries and start with the world-renowned Tokyo Skytree for a panoramic view of the city. In the evening, take a stroll around the Ameyoko market and taste some delicious street food.",
+        "transportation": "From the airport, take the Narita Express train to reach Tokyo station. Get a Suica card for traveling in metros and buses. From Tokyo Skytree, train to Ameyoko is the best way."
+      },
+      {
+        "day": 2,
+        "plan": "Explore Imperial Palace, the residence of the Emperor of Japan and the gardens around it. Afterwards, head to Asakusa to visit Senso-ji, the oldest Buddhist temple in Tokyo. Spend the evening at Odaiba, a man-made island with numerous attractions.",
+        "transportation": "Because these destinations are in Tokyo, public metro and bus would be ideal to get around."
+      },
+      {
+        "day": 3,
+        "plan": "Spend the day at Shinjuku. Visit Shinjuku Gyoen, one of the largest parks in Tokyo and then head to the Tokyo Metropolitan Government Building's observation deck. In the evening, explore the vibrant nightlife at Kabukicho district.",
+        "transportation": "Metro and bus services are efficient within Shinjuku ward."
+      },
+      {
+        "day": 4,
+        "plan": "Travel to Mount Fuji. Visit Fuji Five Lakes and enjoy the beautiful views of the Mount Fuji. Try to visit the Chureito Pagoda which is particularly famous for its scenic view of Mount Fuji in the backdrop. Note: December could be chilly, dress warmly.",
+        "transportation": "Take a bus or train from Tokyo to Mount Fuji. For travelling around the area, local buses or hired bicycles are a good option."
+      },
+      {
+        "day": 5,
+        "plan": "Head to Hakone, famous for hot springs, outdoor activities, and its views of Mount Fuji. Take a ropeway ride and explore The Hakone Shrine located by the Ashi Lake. Return to Tokyo for the night.",
+        "transportation": "Buses are available from Mount Fuji to Hakone. The Hakone Free Pass might be a good investment for unlimited use of transportation around Hakone."
+      },
+      {
+        "day": 6,
+        "plan": "Travel to Kyoto early in the morning. Visit Fushimi Inari Shrine, famous for its thousands of vermilion torii gates. Spend the evening exploring Gion, the traditional entertainment district where you can spot Geisha.",
+        "transportation": "Take the Shinkansen (Bullet Train) from Tokyo to Kyoto. For local transport, buses and taxis are efficient."
+      },
+      {
+        "day": 7,
+        "plan": "Spend the day exploring Arashiyama Bamboo Grove and Kinkaku-ji (The Golden Pavilion). In the evening, visit the Nijo Castle.",
+        "transportation": "Kyoto's efficient bus and metro system will help you travel between sights."
+      },
+      {
+        "day": 8,
+        "plan": "Visit Kiyomizu-dera, a historic temple that offers stunning views of Kyoto against a backdrop of cherry blossoms or autumn colors. Later, prepare for the journey back home.",
+        "transportation": "Local buses or taxis are recommended for commutation within Kyoto. Travel back to Tokyo by Shinkansen."
+      }
+    ],
+    "good_to_travel": null,
+    "cities_included": [
+      "Tokyo",
+      "Mount Fuji",
+      "Kyoto"
+    ],
+    "country_id": 8,
+    "created_at": "2024-10-24T21:14:31.427Z",
+    "updated_at": "2024-10-24T21:14:31.427Z"
+  },
+  {
+    "id": 7,
+    "days_to_spend": 6,
+    "itinerary": [
+      {
+        "day": 1,
+        "plan": "Arrive in Tokyo. Spend your first day exploring the famous Shinjuku district. This includes shopping and dining at Shinjuku Gyoen, Tokyo Metropolitan Government Building, Golden Gai and Omoide Yokocho.",
+        "transportation": "From Narita or Haneda Airport, take the train to Shinjuku Station."
+      },
+      {
+        "day": 2,
+        "plan": "Visit Asakusa to see Senso-ji Temple, then go to Ueno for Ueno Park and Ameya Yokocho Market. In the afternoon, explore Akihabara, the famous electronics and anime district.",
+        "transportation": "From Shinjuku Station, take the JR Yamanote line to Ueno Station, then switch to the Ginza subway line to Asakusa. For Akihabara, take the JR Yamanote line."
+      },
+      {
+        "day": 3,
+        "plan": "Explore Odaiba, visiting the teamLab Borderless, Palette Town Ferris Wheel, and Odaiba Seaside Park. In the evening, visit Roppongi district for its nightlife and Tokyo City View Observation Deck.",
+        "transportation": "Take the Rinkai line from Shinjuku Station to Tokyo Teleport Station. For Roppongi, take the Oedo subway line."
+      },
+      {
+        "day": 4,
+        "plan": "Travel to Shibuya to experience the famous Shibuya Crossing, Hachiko statue, and shopping. Then, visit Harajuku for the Takeshita Street and Meiji Shrine.",
+        "transportation": "Take the JR Yamanote line from Shinjuku Station to Shibuya Station and Harajuku station."
+      },
+      {
+        "day": 5,
+        "plan": "Take a day trip to Mount Fuji. Explore the Fuji Five Lakes, enjoy a boat ride on Lake Kawaguchiko, and, if possible, climb up to Station 5 of Mount Fuji.",
+        "transportation": "Take a tour bus or the Fujikyu Railway from Shinjuku Station to Mount Fuji."
+      },
+      {
+        "day": 6,
+        "plan": "Visit Tsukiji Fish Market in the morning, then explore the upscale shopping district, Ginza. In the afternoon, journey to Oshiage to visit Tokyo Skytree and finish the tour with a panoramic view of Tokyo.",
+        "transportation": "Take the Hibiya subway line from Shibuya to Tsukiji Station. For Ginza, continue on the Hibiya line. For Tokyo Skytree, switch to the Asakusa subway line at Higashi-ginza Station, then get off at Oshiage Station."
+      }
+    ],
+    "good_to_travel": null,
+    "cities_included": [
+      "Tokyo",
+      "Mount Fuji"
+    ],
+    "country_id": 8,
+    "created_at": "2024-10-25T00:37:08.830Z",
+    "updated_at": "2024-10-25T00:37:08.830Z"
+  },
+  {
+    "id": 8,
+    "days_to_spend": 10,
+    "itinerary": [
+      {
+        "day": 1,
+        "plan": "Arrive in Rome. Visit the Colosseum, Roman Forum, and Palatine Hill, for an introductory immersion into the city's ancient history. Wander around and dine in Trastevere neighborhood.",
+        "transportation": "Flight to Rome. In the city, walk or use public transportation (bus, metro or tram rails), or rent a scooter."
+      },
+      {
+        "day": 2,
+        "plan": "Continue exploring Rome. Visit the Vatican Museum, the Sistine Chapel and the magnificent St. Peter's Basilica. Spend the evening at a wine bar in the trendy Monti neighborhood.",
+        "transportation": "Walk or use Rome's public transportation."
+      },
+      {
+        "day": 3,
+        "plan": "Visit other unmissable sights of Rome, such as the Pantheon, the Spanish Steps, and Trevi Fountain. Try traditional Roman cuisine in a local 'trattoria'.",
+        "transportation": "Walk or use Rome's public transportation."
+      },
+      {
+        "day": 4,
+        "plan": "Travel from Rome to Venice. Visit Saint Mark’s Square, Doge's Palace, and enjoy a gondola ride.",
+        "transportation": "High speed train from Rome to Venice."
+      },
+      {
+        "day": 5,
+        "plan": "Explore more of Venice's canals, visit its museums and the vibrant Rialto Market.",
+        "transportation": "Walking and taking the 'vaporetto' (water bus) are the best way to explore Venice."
+      },
+      {
+        "day": 6,
+        "plan": "From Venice, travel to Cinque Terre. Explore the five towns, relax on the beach, or hike the Cinque Terre National Park trails.",
+        "transportation": "Train from Venice to La Spezia, then the regional train to the Cinque Terre villages."
+      },
+      {
+        "day": 7,
+        "plan": "Spend another day in Cinque Terre. Enjoy the stunning views, local cuisine and perhaps a boat tour to see the coastline.",
+        "transportation": "The train and boats connect the Cinque Terre villages, or you may choose to walk."
+      },
+      {
+        "day": 8,
+        "plan": "Travel to Tuscany. Explore Florence, visit the Uffizi Gallery, the Duomo, and Ponte Vecchio. Indulge in a traditional Tuscan meal.",
+        "transportation": "Train from La Spezia to Florence."
+      },
+      {
+        "day": 9,
+        "plan": "Take a day trip to visit the vineyards of Chianti region or explore the scenic medieval towns in the area like Siena or San Gimignano.",
+        "transportation": "Car rental is recommended for the day to get around Tuscany."
+      },
+      {
+        "day": 10,
+        "plan": "Spend the last day in Florence. Visit the Accademia Gallery to see Michelangelo's David. Shop for leather goods and souvenirs. Depart from Florence.",
+        "transportation": "Walk or use Florence's public transportation. Flight from Florence's airport for your departure."
+      }
+    ],
+    "good_to_travel": null,
+    "cities_included": [
+      "Rome",
+      "Venice",
+      "Cinque Terre",
+      "Tuscany"
+    ],
+    "country_id": 1,
+    "created_at": "2024-10-25T00:59:41.564Z",
+    "updated_at": "2024-10-25T00:59:41.564Z"
+  }
+]

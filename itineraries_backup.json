@@ -203,6 +203,113 @@
     "updated_at": "2024-10-25T13:21:52.132Z"
   },
   {
+    "id": 25,
+    "days_to_spend": 2,
+    "itinerary": [
+      {
+        "day": 1,
+        "plan": "Start the day with a visit to the Vatican City to see the Sistine Chapel and St. Peter's Basilica. From there, head to the iconic Colosseum, followed by the Roman Forum and Palatine Hill. In the evening, visit Piazza Navona and make a wish at the Trevi Fountain.",
+        "transportation": "Use the metro to reach Vatican City. Then, use a combination of walking and public buses to reach the other attractions. Taxis are also available if preferred."
+      },
+      {
+        "day": 2,
+        "plan": "Begin your day at the Pantheon, followed by a stroll through the Campo de' Fiori market for some local produce. Visit the Spanish Steps in the afternoon, then go shopping in the luxury boutiques of Via dei Condotti. In the evening, explore the Trastevere neighborhood and enjoy a traditional Italian dinner in a local restaurant.",
+        "transportation": "Most of the day's attractions can be reached by foot as they are in close distance to one another. Public buses and taxis are also available for those who prefer not to walk."
+      }
+    ],
+    "good_to_travel": null,
+    "cities_included": [
+      "Rome"
+    ],
+    "country_id": 1,
+    "created_at": "2024-10-25T18:24:22.062Z",
+    "updated_at": "2024-10-25T18:24:22.062Z"
+  },
+  {
+    "id": 26,
+    "days_to_spend": 3,
+    "itinerary": [
+      {
+        "day": 1,
+        "plan": "Begin your trip at the Grand Palace, a historic site where you can see Wat Phra Kaew, the temple of the Emerald Buddha. After lunch, head over to Wat Phra Chetuphon (Wat Pho), the temple of the Reclining Buddha. In the late afternoon, take a boat to Wat Arun, the Temple of Dawn, which offers an amazing sunset view from across the river.",
+        "transportation": "You can take a taxi or tuk-tuk from your hotel to the Grand Palace, then a short walk to Wat Pho. Finally, take a cross-river ferry to Wat Arun."
+      },
+      {
+        "day": 2,
+        "plan": "Start your day at Chatuchak Weekend Market, the largest market in Thailand. After lunch, visit Jim Thompson's House, to learn about traditional Thai architecture and silk production. In the evening, explore Sukhumvit Road, which offers a variety of restaurants, bars, and clubs.",
+        "transportation": "Take the BTS Skytrain which connects directly to Chatuchak Market and Sukhumvit Road. To reach Jim Thompson's House, take a taxi or tuk-tuk."
+      },
+      {
+        "day": 3,
+        "plan": "Spend your day experiencing the vibrant street life and food. Start with a morning trip to Chinatown and Pak Khlong Talat Flower Market. Enjoy lunch at a local street food stall. In the afternoon, visit the Siam area and explore the shopping malls, such as MBK and Siam Paragon. Finally, end the day with a dinner cruise on the Chao Phraya River.",
+        "transportation": "Use a combination of tuk-tuk, taxi and the BTS Skytrain to travel around, and take a riverboat for the dinner cruise."
+      }
+    ],
+    "good_to_travel": null,
+    "cities_included": [
+      "Bangkok"
+    ],
+    "country_id": 2,
+    "created_at": "2024-10-25T18:26:06.369Z",
+    "updated_at": "2024-10-25T18:26:06.369Z"
+  },
+  {
+    "id": 27,
+    "days_to_spend": 3,
+    "itinerary": [
+      {
+        "day": 1,
+        "plan": "Begin the day at the Rashtrapati Bhavan, the Presidential Estate. Follow this with a visit to Raj Ghat, a memorial dedicated to Mahatma Gandhi. Post lunch, see Qutub Minar, a UNESCO World Heritage site, before going to Humayun’s Tomb, another World Heritage site. Wrap up the day at India Gate, war memorials located astride the Rajpath.",
+        "transportation": "Pre-book a private vehicle or take local transportation -auto rickshaws, cycle rickshaws, e-rickshaws, cabs or metro, according to your convenience."
+      },
+      {
+        "day": 2,
+        "plan": "Begin with exploring Swaminarayan Akshardham, a Hindu temple, followed by a visit to Lotus Temple, a Bahá'í House of Worship known for its flowerlike shape. Post lunch, make your way to the beautifully structured Laxminarayan Temple. The evening time could be spent at Leisure Valley Park, an urban park situated in sector 29.",
+        "transportation": "Choose from local taxis, cabs, autobuses or the subway for your day's transport. Lease a private vehicle if desired."
+      },
+      {
+        "day": 3,
+        "plan": "Spend the first half in Connaught Place, enjoying some shopping and food in this popular commercial hub. Post lunch, visit Jama Masjid - one of the largest mosques in India. Experience a rickshaw ride in the narrow lanes of Chandni Chowk followed by a visit to Red Fort - a historic fort in Delhi. Conclude your day with a light and sound show at the Red Fort.",
+        "transportation": "Choose from local taxis, cabs, auto rickshaws or the subway for your day's transport. Lease a private vehicle if desired."
+      }
+    ],
+    "good_to_travel": null,
+    "cities_included": [
+      "New Delhi"
+    ],
+    "country_id": 3,
+    "created_at": "2024-10-25T18:29:40.340Z",
+    "updated_at": "2024-10-25T18:29:40.340Z"
+  },
+  {
+    "id": 28,
+    "days_to_spend": 3,
+    "itinerary": [
+      {
+        "day": 1,
+        "plan": "Start your journey with the exploration of Old Delhi. Begin the day with Jama Masjid, the India’s largest mosque. Then visit Chandni Chowk, a bustling marketplace in Old Delhi and taste some of the local street food. Post lunch, proceed towards Red Fort, a historic fort in Delhi where every Independence Day, the Prime Minister hoists the Indian 'tricolour flag'. In the evening visit Raj Ghat, the memorial of Mahatma Gandhi.",
+        "transportation": "For Old Delhi, consider a cycle rickshaw ride, a very popular mode of transport, allowing you to dive deep into the hustle and bustle of the old city. For longer distances, you can use taxis or autorickshaws."
+      },
+      {
+        "day": 2,
+        "plan": "Kick off the second day with a visit to Qutub Minar, the tallest brick minaret in the world. Then head towards the Lotus Temple, a notable architectural marvel. Post lunch, explore Humayun’s Tomb, a UNESCO World Heritage Site. In the evening, make your way to India Gate, a war memorial located at Rajpath which is also a popular picnic spot in the evening.",
+        "transportation": "You can hire a taxi for a day or use the Delhi Metro for a more local experience. The sites are quite spread out, so public transport like auto-rickshaws and cycle rickshaws are not recommended."
+      },
+      {
+        "day": 3,
+        "plan": "Spend your third day visiting the political edifices of New Delhi area. Start with Rashtrapati Bhawan, the presidential residence then proceed towards Parliament House. Afterwards, visit the National Museum which houses several artifacts from ancient India. Post lunch, head to Akshardham Temple, a spectacularly grand temple complex in Delhi. At the end of the day, enjoy a stroll around the beautiful, peaceful Lodhi Gardens.",
+        "transportation": "You can hire a taxi for a day or use the Delhi Metro. Taking a chauffeur-driven car for a day is also a convenient option to explore these places."
+      }
+    ],
+    "good_to_travel": null,
+    "cities_included": [
+      "New Delhi"
+    ],
+    "country_id": 3,
+    "created_at": "2024-10-25T18:29:54.851Z",
+    "updated_at": "2024-10-25T18:29:54.851Z"
+  },
+  {
     "id": 1,
     "days_to_spend": 7,
     "itinerary": [
@@ -971,5 +1078,295 @@
     "country_id": 1,
     "created_at": "2024-10-25T15:04:06.103Z",
     "updated_at": "2024-10-25T15:04:06.103Z"
+  },
+  {
+    "id": 21,
+    "days_to_spend": 11,
+    "itinerary": [
+      {
+        "day": 1,
+        "plan": "Arrive in Rome. Check into your hotel and relax or explore nearby areas. You can visit Piazza Navona or Trevi Fountain at night.",
+        "transportation": "Flight to Rome. Local transportation: taxi or public transport"
+      },
+      {
+        "day": 2,
+        "plan": "Spend a full day in Vatican City, exploring St. Peter's Basilica, Vatican Museums, and the Sistine Chapel.",
+        "transportation": "Public transport or taxi"
+      },
+      {
+        "day": 3,
+        "plan": "Visit the Colosseum, Roman Forum, and the Palatine Hill. In the afternoon, go see the Pantheon and the Spanish Steps.",
+        "transportation": "Walking or public transport"
+      },
+      {
+        "day": 4,
+        "plan": "Enjoy a free day in Rome. You might want to go to Campo de' Fiori or the Trastevere district. Alternatively, you could visit the Catacombs or explore the ruins along the Appian Way.",
+        "transportation": "Walking or public transport"
+      },
+      {
+        "day": 5,
+        "plan": "Travel to Florence. Visit the Florence Cathedral and enjoy a panoramic view of the city from Piazzale Michelangelo in the evening.",
+        "transportation": "Train to Florence. Local transportation: walking or public transport"
+      },
+      {
+        "day": 6,
+        "plan": "Visit the Uffizi Gallery and Accademia Gallery, home to Michelangelo's 'David'. Later, you could check out the Boboli Gardens or go to the Piazza della Signoria.",
+        "transportation": "Walking or public transport"
+      },
+      {
+        "day": 7,
+        "plan": "Enjoy a full-day trip to the Tuscany region. Travel through the Chianti countryside, visit medieval towns like San Gimignano and Siena or go wine tasting.",
+        "transportation": "Rent a car or join a bus tour"
+      },
+      {
+        "day": 8,
+        "plan": "Travel to Venice. Spend the evening experiencing a gondola ride or walking around major landmarks such as St. Mark's Square and the Rialto Bridge.",
+        "transportation": "Train to Venice. Local transportation: walking and Vaporetto (water bus)"
+      },
+      {
+        "day": 9,
+        "plan": "Explore the islands of Murano, Burano, and Torcello. In Murano, you can see how the famous glass is made, while in Burano, you can see the brightly colored fishermen's houses. ",
+        "transportation": "Vaporetto (water bus)"
+      },
+      {
+        "day": 10,
+        "plan": "Visit landmarks you've missed such as the Doge's Palace, St. Mark's Basilica, or the Grand Canal. In the afternoon, explore the hidden alleys or discover local eateries.",
+        "transportation": "Walking or Vaporetto (water bus)"
+      },
+      {
+        "day": 11,
+        "plan": "Depending on your flight time, you might have free time in the morning. Then, head to the Marco Polo Airport for departure.",
+        "transportation": "Taxi or public transport to Marco Polo Airport"
+      }
+    ],
+    "good_to_travel": null,
+    "cities_included": [
+      "Rome",
+      "Florence",
+      "Venice"
+    ],
+    "country_id": 1,
+    "created_at": "2024-10-25T16:26:59.281Z",
+    "updated_at": "2024-10-25T16:26:59.281Z"
+  },
+  {
+    "id": 22,
+    "days_to_spend": 15,
+    "itinerary": [
+      {
+        "day": 1,
+        "plan": "Arrival in Rome and check into your hotel. Get acclimated with the city and explore the local area.",
+        "transportation": "Arrive at Rome International Airport. Taxi or shuttle to the hotel."
+      },
+      {
+        "day": 2,
+        "plan": "Explore the Vatican City, visiting the Vatican Museums, Sistine Chapel, and St. Peter's Basilica.",
+        "transportation": "Take a local bus or taxi to the Vatican City."
+      },
+      {
+        "day": 3,
+        "plan": "Visit the Colosseum, Roman Forum, and Palatine Hill.",
+        "transportation": "Public transport or walking."
+      },
+      {
+        "day": 4,
+        "plan": "Visit the Pantheon, Spanish Steps, and enjoy a stroll in the Villa Borghese gardens.",
+        "transportation": "Public transport or walking."
+      },
+      {
+        "day": 5,
+        "plan": "Catch any sites missed or revisit a favorite. In the evening, take a night walk around the city and enjoy Rome's night life.",
+        "transportation": "Public transport or walking."
+      },
+      {
+        "day": 6,
+        "plan": "Travel from Rome to Florence. Check into a hotel and get familiar with the local area.",
+        "transportation": "High-speed train to Florence."
+      },
+      {
+        "day": 7,
+        "plan": "Visit the iconic Florence Cathedral, the Baptistery, and the Bell Tower.",
+        "transportation": "Public transport or walking."
+      },
+      {
+        "day": 8,
+        "plan": "Explore the Uffizi Gallery and Accademia Gallery, displaying some of the finest artworks of Renaissance.",
+        "transportation": "Public transport or walking."
+      },
+      {
+        "day": 9,
+        "plan": "Visit the Boboli Gardens, Ponte Vecchio, and Piazzale Michelangelo for a panoramic view of the city.",
+        "transportation": "Public transport or walking."
+      },
+      {
+        "day": 10,
+        "plan": "Relax and wander in Florence, explore local cuisines or shop for typical Florentine crafts.",
+        "transportation": "Public transport or walking."
+      },
+      {
+        "day": 11,
+        "plan": "Travel from Florence to Venice. Check into a hotel and get acquainted with the local area.",
+        "transportation": "High-speed train to Venice."
+      },
+      {
+        "day": 12,
+        "plan": "Explore St. Mark's Square, the Doge's Palace, and the stunning Basilica.",
+        "transportation": "Walking or waterbus."
+      },
+      {
+        "day": 13,
+        "plan": "Take a gondola ride through the Grand Canal and visit Rialto market.",
+        "transportation": "Walking or gondola."
+      },
+      {
+        "day": 14,
+        "plan": "Visit the islands of Murano and Burano, renowned for their unique glassblowing and lace making respectively.",
+        "transportation": "Waterbus to the islands."
+      },
+      {
+        "day": 15,
+        "plan": "Last day of sightseeing in Venice before departure. Explore local market, enjoy the Venetian cuisines or revisit a favorite spot.",
+        "transportation": "Walking or waterbus. At night take flight from Venice International airport."
+      }
+    ],
+    "good_to_travel": null,
+    "cities_included": [
+      "Rome",
+      "Venice",
+      "Florence"
+    ],
+    "country_id": 1,
+    "created_at": "2024-10-25T16:51:23.593Z",
+    "updated_at": "2024-10-25T16:51:23.593Z"
+  },
+  {
+    "id": 23,
+    "days_to_spend": 12,
+    "itinerary": [
+      {
+        "day": 1,
+        "plan": "Arrive in Rome. Get settled into your accommodation and spend the day exploring Rome's local streets, food, and culture at your own pace.",
+        "transportation": "Travel from airport to your Rome's accommodation using a taxi, airport shuttle service or public transportation."
+      },
+      {
+        "day": 2,
+        "plan": "Explore the historical attractions of Rome. Visit the Colosseum, Roman Forum, and Palatine Hill.",
+        "transportation": "Use metro, taxis or walk, as all these attractions are close by."
+      },
+      {
+        "day": 3,
+        "plan": "Visit the Vatican City. Explore St. Peter's Basilica, the Vatican Museums, and the Sistine Chapel.",
+        "transportation": "Either a taxi or the Metro Line A to Ottaviano Station."
+      },
+      {
+        "day": 4,
+        "plan": "Uncover the other gems of Rome. Visit the Pantheon, Piazza Navona, and Trevi Fountain.",
+        "transportation": "All places are within walkable distance or accessible via public transport."
+      },
+      {
+        "day": 5,
+        "plan": "Transfer from Rome to Florence. Spend the rest of the day at leisure, soaking in the city vibes.",
+        "transportation": "Take a high-speed train from Rome to Florence."
+      },
+      {
+        "day": 6,
+        "plan": "Explore Florence. Visit the Cathedral of Santa Maria del Fiore, Piazza del Duomo, and walk along the Ponte Vecchio.",
+        "transportation": "Most attractions in Florence are close by, so walking is the best option."
+      },
+      {
+        "day": 7,
+        "plan": "Immerse yourself in art. Visit the Uffizi Gallery, Accademia Gallery (Galleria dell'Accademia) to see Michelangelo's David.",
+        "transportation": "The attractions are within walking distance or short taxi rides away."
+      },
+      {
+        "day": 8,
+        "plan": "Transfer from Florence to Venice. Relax and get familiar with the unique water-bound city.",
+        "transportation": "Take a high-speed train from Florence to Venice."
+      },
+      {
+        "day": 9,
+        "plan": "Walk around Venice, visit St. Mark's Square (Piazza San Marco) and Doge's Palace (Palazzo Ducale).",
+        "transportation": "Walking or taking a gondola or vaporetto (water bus)."
+      },
+      {
+        "day": 10,
+        "plan": "Continue exploring Venice. Visit the Rialto Bridge and enjoy a gondola ride in the Grand Canal.",
+        "transportation": "Walking or taking a gondola or vaporetto."
+      },
+      {
+        "day": 11,
+        "plan": "Visit Murano and Burano islands, famous for their glass-making and colorful houses respectively.",
+        "transportation": "Take a vaporetto to Murano and Burano islands."
+      },
+      {
+        "day": 12,
+        "plan": "Depart from Venice. If time permits, have one last walk around the city before heading to the airport.",
+        "transportation": "Take a water taxi or the Alilaguna water bus service to the airport. Or travel by road with a taxi or bus shuttle service."
+      }
+    ],
+    "good_to_travel": null,
+    "cities_included": [
+      "Rome",
+      "Florence",
+      "Venice"
+    ],
+    "country_id": 1,
+    "created_at": "2024-10-25T17:42:28.724Z",
+    "updated_at": "2024-10-25T17:42:28.724Z"
+  },
+  {
+    "id": 24,
+    "days_to_spend": 8,
+    "itinerary": [
+      {
+        "day": 1,
+        "plan": "Arrive in Bangkok and check into your hotel. Take a relaxing boat tour along the Chao Phraya River, visiting the famous floating markets. Then, experience local culinary delights at Yaowarat Road in Bangkok’s Chinatown.",
+        "transportation": "Airport pickup from Suvarnabhumi Airport, taxis or ferries for city travel"
+      },
+      {
+        "day": 2,
+        "plan": "Spend the entire day exploring Thailand’s capital city, starting with a visit to the iconic Wat Phra Kaew (Temple of the Emerald Buddha), followed by the stunning Grand Palace. In the afternoon, visit Wat Arun (Temple of Dawn), and end your day with some shopping at one of Bangkok's many vibrant night markets, like Asiatique the Riverfront.",
+        "transportation": "Public transportation (BTS Skytrain, buses) and taxis"
+      },
+      {
+        "day": 3,
+        "plan": "Head off to Siam Ocean World in the Siam Paragon Mall. In the afternoon, visit Jim Thompson’s House. Afterwards, discover MBK Center or Platinum Fashion Mall for more shopping.",
+        "transportation": "Public transportation and taxis"
+      },
+      {
+        "day": 4,
+        "plan": "Check out from the hotel in Bangkok and catch a flight to Phuket. After arrival, spend the rest of the day exploring the local markets in old Phuket town or relax at Patong Beach.",
+        "transportation": "Flight from Bangkok to Phuket and taxis for city travel"
+      },
+      {
+        "day": 5,
+        "plan": "Excursion to Phi Phi Islands for snorkeling and swimming activities. Have lunch on the white sandy beach and take lots of beautiful pictures. In the evening, visit Bangla Road for nightlife.",
+        "transportation": "Speedboat or ferry for island excursion, taxis for city travel"
+      },
+      {
+        "day": 6,
+        "plan": "Visit Phang Nga Bay and James Bond Island by long-tail boat. In the afternoon, explore the Big Buddha and Wat Chalong. Stunning sunset view from Promthep Cape.",
+        "transportation": "Long-tail boat for island hopping, taxis for city travel"
+      },
+      {
+        "day": 7,
+        "plan": "Travel from Phuket to Pattaya. Rest and relax for the remainder of the day after checking into your hotel. In the evening, you can explore the Walking Street, Pattaya’s famous nightlife spot.",
+        "transportation": "Flight from Phuket to Pattaya, taxis for city travel"
+      },
+      {
+        "day": 8,
+        "plan": "Visit ‘Sanctuary of Truth’, a beautiful wooden temple in Pattaya. Then, enjoy the afternoon at Coral Island where you can engage in water sports or simply relax. Conclude the day with a wonderful view from the Pattaya View Point.",
+        "transportation": "Speedboat for island hopping, taxis or Songthaew for city travel"
+      }
+    ],
+    "good_to_travel": null,
+    "cities_included": [
+      "Bangkok",
+      "Phuket",
+      "Pattaya"
+    ],
+    "country_id": 2,
+    "created_at": "2024-10-25T17:45:38.365Z",
+    "updated_at": "2024-10-25T17:45:38.365Z"
   }
 ]

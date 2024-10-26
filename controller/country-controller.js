@@ -51,6 +51,7 @@ const addItinerarytoDB = async (newItineraryObj) => {
 };
 
 const getItinerary = async (req, res) => {
+  console.log(req.body.cities_included);
   const { countryName } = req.params;
   const numberOfDays = req.body.number_of_days;
   const month = req.body.month;
@@ -101,14 +102,14 @@ const getItinerary = async (req, res) => {
     ) {
       res.status(200).json(itinerary);
     } else {
-      const newIti = chatgptOpenAifunction(
+      const newIti = await chatgptOpenAifunction(
         countryName,
         numberOfDays,
         citiesIncluded,
         month
       );
-      console.log(newIti);
-      const newItinerary = buildItinerary(country.id);
+      console.log(`inner else block ${newIti}`);
+      const newItinerary = buildItinerary(country.id, newIti);
       res.status(200).json(newItinerary);
     }
   } else {
@@ -118,10 +119,10 @@ const getItinerary = async (req, res) => {
       citiesIncluded,
       month
     );
-    console.log(newIti);
+    console.log(`itinerary returned is ${newIti}`);
     if (newIti.length > 0) {
       const newItinerary = buildItinerary(country.id, newIti);
-      addItinerarytoDB(newItinerary);
+      // addItinerarytoDB(newItinerary);
       res.status(200).json(newItinerary);
     }
   }

@@ -1368,5 +1368,66 @@
     "country_id": 2,
     "created_at": "2024-10-25T17:45:38.365Z",
     "updated_at": "2024-10-25T17:45:38.365Z"
+  },
+  {
+    "id": 29,
+    "days_to_spend": 9,
+    "itinerary": [
+      {
+        "day": 1,
+        "plan": "Arrive in Bangkok. Visit the Grand Palace, Wat Arun and Wat Phra Kaew, some of Bangkok's most famous attractions. Enjoy street food exploring Chinatown.",
+        "transportation": "Flights for arrival. Use local transport like Skytrain, Taxi or Tuk-tuk for city travel."
+      },
+      {
+        "day": 2,
+        "plan": "Visit the Chatuchak Weekend Market in the day and experience the vibrant nightlife at Khao San Road in the evening.",
+        "transportation": "Taxi services or Skytrain for city commute."
+      },
+      {
+        "day": 3,
+        "plan": "Take the River and Canal tour. Visit Wat Saket and crawl up the Golden Mountain to witness a beautiful view of the city.",
+        "transportation": "River boat for the tour. Use Taxi services for commute in the city."
+      },
+      {
+        "day": 4,
+        "plan": "Travel to Ayutthaya, visit Ayutthaya Historical Park which hosts ancient relics and temples. Visit Wat Yai Chai Mongkhon, Wat Mahathat, and Wat Chaiwatthanaram",
+        "transportation": "Trains are available from Bangkok to Ayutthaya. Use bikes for travel inside the city."
+      },
+      {
+        "day": 5,
+        "plan": "Visit the Ayutthaya Elephant Palace and Royal Palace and Ayutthaya Floating Market",
+        "transportation": "Bicycle or Moto-bike for city commute."
+      },
+      {
+        "day": 6,
+        "plan": "Arrive in Phuket. Spend the day at Patong Beach and enjoy the nightlife on the Patong street.",
+        "transportation": "Flight from Bangkok to Phuket. Local transport for city commute."
+      },
+      {
+        "day": 7,
+        "plan": "Day trip to Phi Phi Islands. Enjoy snorkeling, beach time and optional visit to Maya Bay.",
+        "transportation": "Speed boats for Phi Phi Island tour. Local transport for rest of the day."
+      },
+      {
+        "day": 8,
+        "plan": "Travel to Krabi. Visit Railay Beaches and Caves, and The Emerald Pool.",
+        "transportation": "Ferry from Phuket to Krabi. Use local transport or taxi for city travel."
+      },
+      {
+        "day": 9,
+        "plan": "Visit the Tiger Cave Temple and embark on a Four Island Tour. Prepare for departure.",
+        "transportation": "Local transport or taxi for city travel. Flight from Krabi for departure."
+      }
+    ],
+    "good_to_travel": null,
+    "cities_included": [
+      "Bangkok",
+      "Phuket",
+      "Krabi",
+      "Ayutthaya"
+    ],
+    "country_id": 2,
+    "created_at": "2024-10-26T19:31:31.961Z",
+    "updated_at": "2024-10-26T19:31:31.961Z"
   }
 ]

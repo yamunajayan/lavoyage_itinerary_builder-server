@@ -51,7 +51,6 @@ const addItinerarytoDB = async (newItineraryObj) => {
 };
 
 const getItinerary = async (req, res) => {
-  console.log(req.body.cities_included);
   const { countryName } = req.params;
   const numberOfDays = req.body.number_of_days;
   const month = req.body.month;
@@ -78,53 +77,44 @@ const getItinerary = async (req, res) => {
     return res.status(404).send("Country not found");
   }
 
+  const sortedCitiyIncluded = citiesIncluded
+    .map((city) => city.toLowerCase())
+    .sort();
+
   const itinerary = await knex("itineraries")
     .where({
       country_id: country.id,
       days_to_spend: numberOfDays,
     })
+    .whereRaw(
+      `
+    (
+      SELECT ARRAY_AGG(city ORDER BY city)
+      FROM (
+        SELECT LOWER(city::text) as city
+        FROM json_array_elements_text(cities_included::json) as city
+      ) sorted_cities
+    ) = ?::text[]
+  `,
+      [sortedCitiyIncluded]
+    )
     .first();
 
   if (itinerary) {
-    const itineraryCities = itinerary.cities_included;
-    const sortedItineraryCities = itineraryCities
-      .map((city) => city.toLowerCase())
-      .sort();
-    const sortedCitiesIncluded = citiesIncluded
-      .map((city) => city.toLowerCase())
-      .sort();
-
-    if (
-      sortedCitiesIncluded.length === sortedItineraryCities.length &&
-      sortedCitiesIncluded.every(
-        (city, index) => city === sortedItineraryCities[index]
-      )
-    ) {
-      res.status(200).json(itinerary);
-    } else {
-      const newIti = await chatgptOpenAifunction(
-        countryName,
-        numberOfDays,
-        citiesIncluded,
-        month
-      );
-      console.log(`inner else block ${newIti}`);
-      const newItinerary = buildItinerary(country.id, newIti);
-      res.status(200).json(newItinerary);
-    }
+    // Matching itinerary found with exact cities
+    return res.status(200).json(itinerary);
   } else {
+    // Handle case where no matching itinerary exists
     const newIti = await chatgptOpenAifunction(
       countryName,
       numberOfDays,
       citiesIncluded,
       month
     );
-    console.log(`itinerary returned is ${newIti}`);
-    if (newIti.length > 0) {
-      const newItinerary = buildItinerary(country.id, newIti);
-      // addItinerarytoDB(newItinerary);
-      res.status(200).json(newItinerary);
-    }
+
+    const newItinerary = buildItinerary(country.id, newIti);
+    await addItinerarytoDB(newItinerary); // Uncomment to save in the database
+    return res.status(200).json(newItinerary);
   }
 };
 

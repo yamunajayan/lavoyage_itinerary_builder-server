@@ -5,7 +5,8 @@ import { config } from "dotenv";
 import itineraryDbBackup from "./utils/itinerary-db-backup.js";
 
 config();
-const PORT = 8080;
+const PORT = process.env.PORT;
+const BASE_URL = process.env.BASE_URL;
 
 const app = express();
 app.use(cors());
@@ -24,5 +25,5 @@ app.get("/", (_req, _res) => {
 });
 
 app.listen(PORT, () => {
-  console.log("server running on port", PORT);
+  console.log(`server running on port, ${BASE_URL}${PORT}`);
 });

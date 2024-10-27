@@ -2,6 +2,8 @@ import initKnex from "knex";
 import configuration from "../knexfile.js";
 const knex = initKnex(configuration);
 
+//For future implementation, to show all itineraries
+
 const all = async (_req, res) => {
   try {
     const data = await knex("itineraries");

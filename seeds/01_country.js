@@ -64,6 +64,44 @@ export async function seed(knex) {
       latitude: 15.87003,
       longitude: 100.99254,
       best_months_to_visit: JSON.stringify(["November", "February"]),
+      transportation: JSON.stringify([
+        {
+          mode: "Tuk-tuks",
+          message:
+            "These three-wheeled taxis are a popular way to experience local travel within the city.",
+          transportation:
+            "Tuk-tuks are widely available, though fares should be negotiated beforehand.",
+        },
+        {
+          mode: "Long-tail Boats",
+          message:
+            "Travel along Bangkok’s canals and the Chao Phraya River to experience the city from a unique perspective.",
+          transportation:
+            "Long-tail boat services are available at most river piers and provide scenic routes.",
+        },
+        {
+          mode: "Intercity Buses & Trains",
+          message:
+            "Intercity buses and trains connect major tourist destinations and are affordable ways to explore Thailand.",
+          transportation:
+            "Express buses and overnight trains are popular for long-distance travel.",
+        },
+        {
+          mode: "Motorbike Rentals",
+          message:
+            "Motorbikes are widely rented, especially on islands like Phuket and Koh Samui, for convenient exploration.",
+          transportation:
+            "Helmets and international permits are recommended for safety.",
+        },
+      ]),
+      finalReminders: JSON.stringify({
+        safety:
+          "Be cautious of pickpockets, especially in crowded tourist areas.",
+        culturalEtiquette:
+          "Dress modestly and remove shoes when entering temples.",
+        dining:
+          "Try local street food but ensure it’s from a busy stall to ensure freshness.",
+      }),
     },
     {
       id: 3,

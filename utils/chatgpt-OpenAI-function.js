@@ -36,7 +36,6 @@ const chatgptOpenAifunction = async (countryName, days, cities, month) => {
     }
   }
   const chatGptResponse = await createChatCompletion();
-  //   console.log(chatGptResponse);
   return chatGptResponse;
 };
 

@@ -37,6 +37,7 @@ const getOne = async (req, res) => {
   }
 };
 
+//adding the newly generated itinerary to dB
 const addItinerarytoDB = async (newItineraryObj) => {
   const itineraryForDB = {
     ...newItineraryObj,
@@ -46,7 +47,7 @@ const addItinerarytoDB = async (newItineraryObj) => {
   try {
     const data = await knex("itineraries").insert(itineraryForDB);
   } catch (error) {
-    console.log(error);
+    console.error(error);
   }
 };
 
@@ -54,11 +55,10 @@ const getItinerary = async (req, res) => {
   const { countryName } = req.params;
   const numberOfDays = req.body.number_of_days;
   const month = req.body.month;
-  const travelBy = req.body.travel_by;
+  const travelBy = req.body.travel_by; //for future implementation
   const citiesIncluded = req.body.cities_included;
 
   const buildItinerary = (countryId, newIti) => {
-    // console.log(countryId);
     const newItineraryObj = {
       country_id: countryId,
       itinerary: JSON.parse(newIti),

@@ -16,6 +16,7 @@ app.use("/countries", router);
 
 app.use("/countries", router);
 
+//This function is used to backup the database for itinerary table
 itineraryDbBackup();
 
 app.get("/", (_req, _res) => {

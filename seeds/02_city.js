@@ -146,7 +146,7 @@ export async function seed(knex) {
       city_name: "New York City",
       city_description:
         "The most populous city in the USA, known for its iconic landmarks like Times Square and Central Park.",
-      city_image: "https://example.com/nyc.jpg", // Replace with actual image URL
+      city_image: "http://localhost:8080/images/USA/new_york.jpeg", // Replace with actual image URL
       latitude: 40.7128,
       longitude: -74.006,
       days_to_spend: 4,
@@ -157,7 +157,7 @@ export async function seed(knex) {
       city_name: "Los Angeles",
       city_description:
         "The entertainment capital of the world, home to Hollywood and beautiful beaches.",
-      city_image: "https://example.com/la.jpg", // Replace with actual image URL
+      city_image: "http://localhost:8080/images/USA/los_angeles.webp", // Replace with actual image URL
       latitude: 34.0522,
       longitude: -118.2437,
       days_to_spend: 3,
@@ -168,7 +168,7 @@ export async function seed(knex) {
       city_name: "Chicago",
       city_description:
         "Known for its stunning architecture, museums, and the iconic Cloud Gate sculpture.",
-      city_image: "https://example.com/chicago.jpg", // Replace with actual image URL
+      city_image: "http://localhost:8080/images/USA/chicago.jpeg", // Replace with actual image URL
       latitude: 41.8781,
       longitude: -87.6298,
       days_to_spend: 2,
@@ -179,7 +179,7 @@ export async function seed(knex) {
       city_name: "Miami",
       city_description:
         "Famous for its beaches, vibrant nightlife, and Cuban culture.",
-      city_image: "https://example.com/miami.jpg", // Replace with actual image URL
+      city_image: "http://localhost:8080/images/USA/miami.jpeg", // Replace with actual image URL
       latitude: 25.7617,
       longitude: -80.1918,
       days_to_spend: 2,
@@ -190,7 +190,7 @@ export async function seed(knex) {
       city_name: "San Francisco",
       city_description:
         "Known for the Golden Gate Bridge, Alcatraz, and its steep streets.",
-      city_image: "https://example.com/sanfrancisco.jpg", // Replace with actual image URL
+      city_image: "http://localhost:8080/images/USA/san_francisco.jpeg", // Replace with actual image URL
       latitude: 37.7749,
       longitude: -122.4194,
       days_to_spend: 3,
@@ -201,7 +201,7 @@ export async function seed(knex) {
       city_name: "Las Vegas",
       city_description:
         "The entertainment capital, known for its casinos, nightlife, and shows.",
-      city_image: "https://example.com/lasvegas.jpg", // Replace with actual image URL
+      city_image: "http://localhost:8080/images/USA/las_vegas.webp", // Replace with actual image URL
       latitude: 36.1699,
       longitude: -115.1398,
       days_to_spend: 2,
@@ -279,7 +279,7 @@ export async function seed(knex) {
       city_name: "Cairo",
       city_description:
         "The capital of Egypt, known for its rich history, including the Pyramids of Giza and the Egyptian Museum.",
-      city_image: "https://example.com/cairo.jpg", // Replace with actual image URL
+      city_image: "http://localhost:8080/images/Egypt/cairo-1.avif", // Replace with actual image URL
       latitude: 30.0444,
       longitude: 31.2357,
       days_to_spend: 3,
@@ -290,7 +290,7 @@ export async function seed(knex) {
       city_name: "Alexandria",
       city_description:
         "A Mediterranean port city in Egypt known for its Greco-Roman history and ancient sites.",
-      city_image: "https://example.com/alexandria.jpg", // Replace with actual image URL
+      city_image: "http://localhost:8080/images/Egypt/ALEXANDRIA-1.avif", // Replace with actual image URL
       latitude: 31.2001,
       longitude: 29.9187,
       days_to_spend: 2,
@@ -301,7 +301,7 @@ export async function seed(knex) {
       city_name: "Luxor",
       city_description:
         "A city on the east bank of the Nile, famous for its ancient temples and the Valley of the Kings.",
-      city_image: "https://example.com/luxor.jpg", // Replace with actual image URL
+      city_image: "http://localhost:8080/images/Egypt/luxor-1.avif", // Replace with actual image URL
       latitude: 25.6872,
       longitude: 32.6396,
       days_to_spend: 2,
@@ -312,7 +312,7 @@ export async function seed(knex) {
       city_name: "Aswan",
       city_description:
         "A city on the Nile River, known for its archaeological sites, including the Philae Temple.",
-      city_image: "https://example.com/aswan.jpg", // Replace with actual image URL
+      city_image: "http://localhost:8080/images/Egypt/aswan-1.avif", // Replace with actual image URL
       latitude: 24.0889,
       longitude: 32.8998,
       days_to_spend: 2,
@@ -323,7 +323,7 @@ export async function seed(knex) {
       city_name: "Sharm El Sheikh",
       city_description:
         "A popular resort town on the Red Sea, known for diving and snorkeling.",
-      city_image: "https://example.com/sharmelsheikh.jpg", // Replace with actual image URL
+      city_image: "http://localhost:8080/images/Egypt/SHARM-EL-SHEIKH-1.avif", // Replace with actual image URL
       latitude: 27.9158,
       longitude: 34.3299,
       days_to_spend: 3,
@@ -334,7 +334,7 @@ export async function seed(knex) {
       city_name: "Hurghada",
       city_description:
         "Another famous Red Sea resort town, known for water sports and coral reefs.",
-      city_image: "https://example.com/hurghada.jpg", // Replace with actual image URL
+      city_image: "http://localhost:8080/images/Egypt/HURGHADA-1.avif", // Replace with actual image URL
       latitude: 27.2579,
       longitude: 33.8116,
       days_to_spend: 2,
@@ -429,6 +429,272 @@ export async function seed(knex) {
       longitude: 14.0154,
       days_to_spend: 5,
       country_id: 1, // Italy's country_id
+    },
+    {
+      id: 39,
+      city_name: "Ubud",
+      city_description:
+        "Known as the cultural heart of Bali, Ubud is famous for its art scene, lush rice terraces, and traditional Balinese ceremonies.",
+      city_image: "http://localhost:8080/images/Bali/ubud.jpeg", // Replace with actual image URL
+      latitude: -8.5069,
+      longitude: 115.2623,
+      days_to_spend: 4,
+      country_id: 6, // Indonesia's country_id
+    },
+    {
+      id: 40,
+      city_name: "Kuta Beach",
+      city_description:
+        "A world-famous beach destination, Kuta is known for its surf-friendly waves, vibrant nightlife, and beautiful sunsets.",
+      city_image: "http://localhost:8080/images/Bali/kuta.webp", // Replace with actual image URL
+      latitude: -8.7251,
+      longitude: 115.168,
+      days_to_spend: 3,
+      country_id: 6, // Indonesia's country_id
+    },
+    {
+      id: 41,
+      city_name: "Nusa Dua",
+      city_description:
+        "An upscale resort area, Nusa Dua is famous for its pristine beaches, luxury hotels, and tranquil environment, ideal for relaxation.",
+      city_image: "http://localhost:8080/images/Bali/nusa_dua.jpeg", // Replace with actual image URL
+      latitude: -8.8031,
+      longitude: 115.228,
+      days_to_spend: 5,
+      country_id: 6, // Indonesia's country_id
+    },
+    {
+      id: 42,
+      city_name: "Tanah Lot",
+      city_description:
+        "A famous sea temple perched on a rock formation, Tanah Lot is known for its stunning sunset views and cultural significance.",
+      city_image: "http://localhost:8080/images/Bali/tanah_lot.jpeg", // Replace with actual image URL
+      latitude: -8.6308,
+      longitude: 115.0875,
+      days_to_spend: 2,
+      country_id: 6, // Indonesia's country_id
+    },
+    {
+      id: 43,
+      city_name: "Sydney",
+      city_description:
+        "Australia's largest city, Sydney is famous for its stunning harbor, iconic Sydney Opera House, and beautiful beaches like Bondi.",
+      city_image: "http://localhost:8080/images/Australia/sydney.jpeg", // Replace with actual image URL
+      latitude: -33.8688,
+      longitude: 151.2093,
+      days_to_spend: 5,
+      country_id: 7, // Australia's country_id
+    },
+    {
+      id: 44,
+      city_name: "Melbourne",
+      city_description:
+        "Known for its vibrant arts scene, diverse culture, and coffee shops, Melbourne is often considered Australia's cultural capital.",
+      city_image: "http://localhost:8080/images/Australia/melbourne.avif", // Replace with actual image URL
+      latitude: -37.8136,
+      longitude: 144.9631,
+      days_to_spend: 4,
+      country_id: 7, // Australia's country_id
+    },
+    {
+      id: 45,
+      city_name: "Great Barrier Reef",
+      city_description:
+        "The world's largest coral reef system, the Great Barrier Reef offers stunning underwater experiences, including snorkeling and scuba diving.",
+      city_image:
+        "http://localhost:8080/images/Australia/Great_Barrier-Reef.jpeg", // Replace with actual image URL
+      latitude: -16.2985,
+      longitude: 145.1005,
+      days_to_spend: 5,
+      country_id: 7, // Australia's country_id
+    },
+    {
+      id: 46,
+      city_name: "Brisbane",
+      city_description:
+        "Brisbane is known for its sunny weather, vibrant urban precincts, and proximity to natural attractions like the Gold Coast and Sunshine Coast.",
+      city_image: "http://localhost:8080/images/Australia/brisbane.jpeg", // Replace with actual image URL
+      latitude: -27.4698,
+      longitude: 153.0251,
+      days_to_spend: 3,
+      country_id: 7, // Australia's country_id
+    },
+    {
+      id: 47,
+      city_name: "Tokyo",
+      city_description:
+        "Japan's bustling capital, Tokyo is known for its modern skyline, vibrant culture, and historic sites like the Senso-ji Temple.",
+      city_image: "http://localhost:8080/images/Japan/tokyo-1.avif", // Replace with actual image URL
+      latitude: 35.6762,
+      longitude: 139.6503,
+      days_to_spend: 5,
+      country_id: 8, // Japan's country_id
+    },
+    {
+      id: 48,
+      city_name: "Kyoto",
+      city_description:
+        "Renowned for its classical Buddhist temples, stunning gardens, and traditional wooden houses, Kyoto is a cultural hub of Japan.",
+      city_image: "http://localhost:8080/images/Japan/kyoto-1.avif", // Replace with actual image URL
+      latitude: 35.0116,
+      longitude: 135.7681,
+      days_to_spend: 4,
+      country_id: 8, // Japan's country_id
+    },
+    {
+      id: 49,
+      city_name: "Mount Fuji",
+      city_description:
+        "An iconic symbol of Japan, Mount Fuji is a stratovolcano known for its breathtaking beauty and is popular for hiking and photography.",
+      city_image: "http://localhost:8080/images/Japan/mount-fuji-1.jpeg", // Replace with actual image URL
+      latitude: 35.3606,
+      longitude: 138.7274,
+      days_to_spend: 3,
+      country_id: 8, // Japan's country_id
+    },
+    {
+      id: 50,
+      city_name: "Hiroshima",
+      city_description:
+        "A city known for its historical significance, Hiroshima is home to the Peace Memorial Park and Museum, dedicated to the victims of the atomic bomb.",
+      city_image: "http://localhost:8080/images/Japan/hiroshima-1.jpeg", // Replace with actual image URL
+      latitude: 34.3853,
+      longitude: 132.4553,
+      days_to_spend: 2,
+      country_id: 8, // Japan's country_id
+    },
+    {
+      id: 51,
+      city_name: "Rio de Janeiro",
+      city_description:
+        "Famous for its stunning beaches, vibrant culture, and iconic landmarks like Christ the Redeemer, Rio de Janeiro is a must-visit destination in Brazil.",
+      city_image: "http://localhost:8080/images/Brazil/Rio_de _aneiro.avif", // Replace with actual image URL
+      latitude: -22.9068,
+      longitude: -43.1729,
+      days_to_spend: 5,
+      country_id: 9, // Brazil's country_id
+    },
+    {
+      id: 52,
+      city_name: "São Paulo",
+      city_description:
+        "As Brazil's largest city, São Paulo is known for its rich cultural scene, diverse cuisine, and bustling nightlife.",
+      city_image: "http://localhost:8080/images/Brazil/sao_paulo.jpeg", // Replace with actual image URL
+      latitude: -23.5505,
+      longitude: -46.6333,
+      days_to_spend: 4,
+      country_id: 9, // Brazil's country_id
+    },
+    {
+      id: 53,
+      city_name: "Salvador",
+      city_description:
+        "Known for its colonial architecture and Afro-Brazilian culture, Salvador is famous for its Carnival celebrations and vibrant music scene.",
+      city_image: "http://localhost:8080/images/Brazil/salvador.avif", // Replace with actual image URL
+      latitude: -12.9714,
+      longitude: -38.5014,
+      days_to_spend: 3,
+      country_id: 9, // Brazil's country_id
+    },
+    {
+      id: 54,
+      city_name: "Amazon Rainforest",
+      city_description:
+        "The Amazon Rainforest is one of the world's most biodiverse regions, offering unique wildlife experiences and opportunities for eco-tourism.",
+      city_image: "http://localhost:8080/images/Brazil/amazon_rainforest.jpeg", // Replace with actual image URL
+      latitude: -3.4653,
+      longitude: -62.2159,
+      days_to_spend: 5,
+      country_id: 9, // Brazil's country_id
+    },
+    {
+      id: 55,
+      city_name: "Cancún",
+      city_description:
+        "Famous for its beautiful beaches and vibrant nightlife, Cancún is a popular destination for travelers seeking sun and fun.",
+      city_image: "http://localhost:8080/images/Mexico/cancun.jpeg", // Replace with actual image URL
+      latitude: 21.1619,
+      longitude: -86.8515,
+      days_to_spend: 5,
+      country_id: 10, // Mexico's country_id
+    },
+    {
+      id: 56,
+      city_name: "Mexico City",
+      city_description:
+        "The capital of Mexico, Mexico City is known for its rich history, vibrant culture, and attractions like the Zócalo and Frida Kahlo Museum.",
+      city_image: "http://localhost:8080/images/Mexico/mexico_city.webp", // Replace with actual image URL
+      latitude: 19.4326,
+      longitude: -99.1332,
+      days_to_spend: 4,
+      country_id: 10, // Mexico's country_id
+    },
+    {
+      id: 57,
+      city_name: "Tulum",
+      city_description:
+        "Known for its stunning coastal ruins, Tulum offers beautiful beaches, eco-friendly resorts, and a laid-back atmosphere.",
+      city_image: "http://localhost:8080/images/Mexico/tulum-2.jpeg", // Replace with actual image URL
+      latitude: 20.211,
+      longitude: -87.4659,
+      days_to_spend: 3,
+      country_id: 10, // Mexico's country_id
+    },
+    {
+      id: 58,
+      city_name: "Guadalajara",
+      city_description:
+        "Famous for mariachi music and tequila, Guadalajara is a cultural hub known for its historic architecture and vibrant local markets.",
+      city_image: "http://localhost:8080/images/Mexico/guadalajara.avif", // Replace with actual image URL
+      latitude: 20.6767,
+      longitude: -103.3509,
+      days_to_spend: 4,
+      country_id: 10, // Mexico's country_id
+    },
+    {
+      id: 59,
+      city_name: "Cape Town",
+      city_description:
+        "Known for its stunning landscapes, iconic Table Mountain, and vibrant cultural scene, Cape Town is a top destination in South Africa.",
+      city_image: "http://localhost:8080/images/SouthAfrica/cape_town.jpeg", // Replace with actual image URL
+      latitude: -33.9249,
+      longitude: 18.4241,
+      days_to_spend: 5,
+      country_id: 11, // South Africa's country_id
+    },
+    {
+      id: 60,
+      city_name: "Johannesburg",
+      city_description:
+        "As the largest city in South Africa, Johannesburg is known for its rich history, cultural attractions, and vibrant art scene.",
+      city_image: "http://localhost:8080/images/SouthAfrica/johannesburg.webp", // Replace with actual image URL
+      latitude: -26.2041,
+      longitude: 28.0473,
+      days_to_spend: 4,
+      country_id: 11, // South Africa's country_id
+    },
+    {
+      id: 61,
+      city_name: "Kruger National Park",
+      city_description:
+        "One of Africa's largest game reserves, Kruger National Park offers incredible wildlife viewing opportunities and diverse ecosystems.",
+      city_image:
+        "http://localhost:8080/images/SouthAfrica/kruger_national_park.avif", // Replace with actual image URL
+      latitude: -23.9884,
+      longitude: 31.5704,
+      days_to_spend: 5,
+      country_id: 11, // South Africa's country_id
+    },
+    {
+      id: 62,
+      city_name: "Durban",
+      city_description:
+        "Known for its beautiful beaches and warm climate, Durban is a coastal city that offers a mix of cultures and vibrant street markets.",
+      city_image: "http://localhost:8080/images/SouthAfrica/durban.webp", // Replace with actual image URL
+      latitude: -29.8587,
+      longitude: 31.0218,
+      days_to_spend: 4,
+      country_id: 11, // South Africa's country_id
     },
   ]);
 }

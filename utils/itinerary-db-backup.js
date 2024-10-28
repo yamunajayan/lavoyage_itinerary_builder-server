@@ -8,7 +8,7 @@ const knex = initKnex(configuration);
 const itineraryDbBackup = () => {
   const exportDataToJSON = async () => {
     try {
-      const data = await knex("itineraries").select("*");
+      const data = await knex("itineraries").select("*").orderBy("id", "asc");
       const jsonData = JSON.stringify(data, null, 2); // 2 for pretty printing
       fs.writeFileSync(
         "./backup_data/itineraries_backup.json",

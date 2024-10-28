@@ -34,7 +34,7 @@ Anyone who wants to travel to an unknown country can use it, This will give you 
 
 - Express.js
 - Node.js
-- MySQL
+- PostGreSQL
 
 ### APIs
 

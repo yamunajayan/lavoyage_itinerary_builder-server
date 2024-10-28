@@ -18,7 +18,7 @@ app.use("/countries", router);
 app.use("/countries", router);
 
 //This function is used to backup the database for itinerary table
-// itineraryDbBackup();
+itineraryDbBackup();
 
 app.get("/", (_req, _res) => {
   _res.send("Welcome to laVoyage itinerary builder");

@@ -11,7 +11,7 @@ export async function seed(knex) {
     {
       id: 1,
       country_name: "Italy",
-      country_image: "http://localhost:8080/images/Italy/italy-2.avif",
+      country_image: "/images/Italy/italy-2.avif",
       budget_7_days_usd: "$1,000–$1,500 USD",
       country_description:
         "Italy is known foItaly is best known for its rich cultural heritage, iconic art, and delicious cuisine. From the breathtaking architecture of  Rome to amazing vineyards of Tuscany to the picturesque canals of Venice, it offers a blend of history and beauty. Additionally, Italy's world-renowned dishes  like pizza, pasta, and gelato make it a top  destination for food lovers.",
@@ -57,7 +57,7 @@ export async function seed(knex) {
     {
       id: 2,
       country_name: "Thailand",
-      country_image: "http://localhost:8080/images/Thailand/Thailand-1.avif",
+      country_image: "/images/Thailand/Thailand-1.avif",
       budget_7_days_usd: "$500–$1,000 USD",
       country_description:
         "Thailand is famous for its tropical beaches, royal palaces, and temples.",
@@ -106,7 +106,7 @@ export async function seed(knex) {
     {
       id: 3,
       country_name: "India",
-      country_image: "http://localhost:8080/images/India/India-1.avif",
+      country_image: "/images/India/India-1.avif",
       budget_7_days_usd: "$400–$1,000 USD",
       country_description:
         "India is a country of diverse landscapes, culture, and history.",
@@ -117,7 +117,7 @@ export async function seed(knex) {
     {
       id: 4,
       country_name: "Egypt",
-      country_image: "http://localhost:8080/images/Egypt/Egypt-1.jpeg",
+      country_image: "/images/Egypt/Egypt-1.jpeg",
       budget_7_days_usd: "$700–$1,200 USD",
       country_description:
         "Egypt is known for its ancient civilization and monumental sites like the pyramids.",
@@ -128,7 +128,7 @@ export async function seed(knex) {
     {
       id: 5,
       country_name: "France",
-      country_image: "http://localhost:8080/images/France/France-2.jpeg",
+      country_image: "/images/France/France-2.jpeg",
       budget_7_days_usd: "$1,200–$1,800 USD",
       country_description:
         "France is celebrated for its wine, art, history, and landmarks like the Eiffel Tower.",
@@ -144,7 +144,7 @@ export async function seed(knex) {
     {
       id: 6,
       country_name: "Bali",
-      country_image: "http://localhost:8080/images/Bali/Bali-1.webp",
+      country_image: "/images/Bali/Bali-1.webp",
       budget_7_days_usd: "$500–$900 USD",
       country_description:
         "Bali is an Indonesian island known for its forested volcanic mountains and beaches.",
@@ -155,7 +155,7 @@ export async function seed(knex) {
     {
       id: 7,
       country_name: "Australia",
-      country_image: "http://localhost:8080/images/Australia/Australia-1.avif",
+      country_image: "/images/Australia/Australia-1.avif",
       budget_7_days_usd: "$1,200–$1,800 USD",
       country_description:
         "Australia is known for its diverse landscapes, wildlife, and beaches.",
@@ -171,7 +171,7 @@ export async function seed(knex) {
     {
       id: 8,
       country_name: "Japan",
-      country_image: "http://localhost:8080/images/Japan/Japan-1.avif",
+      country_image: "/images/Japan/Japan-1.avif",
       budget_7_days_usd: "$1,000–$1,600 USD",
       country_description:
         "Japan offers a mix of traditional culture and modern technology.",
@@ -187,7 +187,7 @@ export async function seed(knex) {
     {
       id: 9,
       country_name: "Brazil",
-      country_image: "http://localhost:8080/images/Brazil/Brazil-1.avif",
+      country_image: "/images/Brazil/Brazil-1.avif",
       budget_7_days_usd: "$700–$1,200 USD",
       country_description:
         "Brazil is known for its Amazon rainforest and vibrant Carnival festival.",
@@ -203,7 +203,7 @@ export async function seed(knex) {
     {
       id: 10,
       country_name: "Mexico",
-      country_image: "http://localhost:8080/images/Mexico/Mexico-1.jpeg",
+      country_image: "/images/Mexico/Mexico-1.jpeg",
       budget_7_days_usd: "$700–$1,200 USD",
       country_description:
         "Mexico is famous for its beaches, ancient ruins, and vibrant culture.",
@@ -214,8 +214,7 @@ export async function seed(knex) {
     {
       id: 11,
       country_name: "South Africa",
-      country_image:
-        "http://localhost:8080/images/SouthAfrica/SouthAfrica-1.jpeg",
+      country_image: "/images/SouthAfrica/SouthAfrica-1.jpeg",
       budget_7_days_usd: "$700–$1,200 USD",
 
       country_description:
@@ -227,7 +226,7 @@ export async function seed(knex) {
     {
       id: 12,
       country_name: "United States",
-      country_image: "http://localhost:8080/images/USA/USA-1.webp",
+      country_image: "/images/USA/USA-1.webp",
       budget_7_days_usd: "$1,400–$2,200 USD",
 
       country_description:
@@ -239,7 +238,7 @@ export async function seed(knex) {
     {
       id: 13,
       country_name: "Canada",
-      country_image: "http://localhost:8080/images/Canada/Canada-1.webp",
+      country_image: "/images/Canada/Canada-1.webp",
       budget_7_days_usd: "$1,200–$1,800 USD",
       country_description:
         "Canada is known for its natural beauty, national parks, and cities like Toronto and Vancouver.",
@@ -250,7 +249,7 @@ export async function seed(knex) {
     {
       id: 14,
       country_name: "Spain",
-      country_image: "http://localhost:8080/images/Spain/Spain-1.avif",
+      country_image: "/images/Spain/Spain-1.avif",
       budget_7_days_usd: "$800–$1,400 USD",
 
       country_description:
@@ -267,7 +266,7 @@ export async function seed(knex) {
     {
       id: 15,
       country_name: "Greece",
-      country_image: "http://localhost:8080/images/Greece/Greece-1.jpeg",
+      country_image: "/images/Greece/Greece-1.jpeg",
       budget_7_days_usd: "$700–$1,200 USD",
 
       country_description:
@@ -279,8 +278,7 @@ export async function seed(knex) {
     {
       id: 16,
       country_name: "New Zealand",
-      country_image:
-        "http://localhost:8080/images/NewZealand/NewZealand-1.avif",
+      country_image: "/images/NewZealand/NewZealand-1.avif",
       budget_7_days_usd: "$1,200–$1,800 USD",
 
       country_description:
@@ -292,7 +290,7 @@ export async function seed(knex) {
     {
       id: 17,
       country_name: "Turkey",
-      country_image: "http://localhost:8080/images/Turkey/Turkey-1.webp",
+      country_image: "/images/Turkey/Turkey-1.webp",
       budget_7_days_usd: "$600–$1,000 USD",
 
       country_description:

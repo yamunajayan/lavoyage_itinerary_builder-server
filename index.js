@@ -2,6 +2,8 @@ import express from "express";
 import router from "./routes/router.js";
 import cors from "cors";
 import { config } from "dotenv";
+import path from "path";
+import { fileURLToPath } from "url";
 import itineraryDbBackup from "./utils/itinerary-db-backup.js";
 
 config();
@@ -11,7 +13,10 @@ const BASE_URL = process.env.BASE_URL;
 const app = express();
 app.use(cors());
 app.use(express.json());
-app.use(express.static("public"));
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+app.use(express.static(path.join(__dirname, "public")));
 app.use("/countries", router);
 //test
 

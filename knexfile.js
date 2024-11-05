@@ -3,11 +3,14 @@ import "dotenv/config";
 export default {
   client: "postgresql",
   connection: {
-    host: process.env.DB_HOST,
+    host: process.env.POSTGRES_HOST,
     port: process.env.DB_PORT,
-    database: process.env.DB_NAME,
-    user: process.env.DB_USER,
-    password: process.env.DB_PASSWORD,
+    database: process.env.POSTGRES_DATABASE,
+    user: process.env.POSTGRES_USER,
+    password: process.env.POSTGRES_PASSWORD,
     charset: "utf8",
+    ssl: {
+      rejectUnauthorized: false, // Important for Vercel's managed PostgreSQL
+    },
   },
 };
